@@ -1,0 +1,35 @@
+// FONTS
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+$font1: 'Titillium Web', sans-serif;
+$font2: 'Dancing Script', cursive;
+
+* {
+    font-family: $font1;
+}
+
+// COLORS
+$white: white;
+$grey: #424244;
+$grey-bg: #E4EBF5;
+$green: #01b2bc;
+
+$footer-color: #01b2bc;
+
+// RESET
+
+.container-fluid {
+    padding: auto 0px !important;
+}
+.row {
+    padding: 0px !important;
+    width: 100%;
+}
+
+@import 'homepage';
+@import 'livebutton';
+@import 'destinations';
+@import 'destination';
+@import 'footer';

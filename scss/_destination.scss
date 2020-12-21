@@ -1,0 +1,80 @@
+.destination {
+    padding: 0px !important;
+       
+    // CONTENT SECTION
+
+    &__content {
+        text-align: center;
+        h1 {
+            margin: 40px 0px 20px;
+            font-size: 50px;
+            font-weight: bolder;
+        }
+        h2 {
+            margin: 25px 0px;
+        }
+        &__tags {
+            button {
+                border: 1px solid; 
+            }
+        }
+        p {
+            color: $grey;
+            font-size: 16px;
+            margin: 15px 15px;
+            text-align: justify;
+        }
+        .markedtext {
+            background-color: #fee970;
+            font-size: 16px;
+            margin: 5px 15px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        // SLIDER
+
+        .slider {
+            margin: 20px auto 25px;
+            width: 80%;
+            &__slide {
+                position: relative;
+                &__img {
+                    border-radius: 20px;
+                    width: 100%;
+                }
+                &__title {
+                    bottom: 0px;
+                    color: $white;
+                    font-size: 20px;
+                    position: absolute;
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+            &__slide:focus {
+                outline: none;
+            }
+            .slick-center img {
+                transform: scale(1.05);
+                transition: transform 1200ms linear;
+            }
+            .slick-prev:before, .slick-next:before {
+                color: $grey;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+// RESPONSIVE
+
+// @media all and (max-width: 1200px) {
+
+// }
+
+// @media all and (max-width: 768px) {
+//     .slider {
+//         width: 100%;
+//     }
+// }

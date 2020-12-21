@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+  font-family: "Titillium Web", sans-serif; }
+
+.container-fluid {
+  padding: auto 0px !important; }
+
+.row {
+  padding: 0px !important;
+  width: 100%; }
+
+.homepage {
+  align-items: center;
+  background-image: url(/images/homepage-desktop.jpg);
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: 100vh;
+  min-height: 100vh;
+  width: 100%; }
+  .homepage__title {
+    font-family: "Dancing Script", cursive;
+    font-size: 4.5rem;
+    text-align: center;
+    width: 90%; }
+  .homepage__subtitle {
+    font-size: 2.5rem;
+    text-align: center;
+    width: 90%; }
+
+@media all and (max-width: 768px) {
+  .homepage {
+    background-image: url(/images/homepage-mobile.jpg); } }
+.livebutton {
+  margin-top: 50px !important;
+  display: inline-block;
+  width: 220px;
+  height: 70px;
+  z-index: 11; }
+
+.livebutton:after {
+  content: '';
+  background: linear-gradient(120deg, #E62878, white, #E62878);
+  background-size: 400% 400%;
+  -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 66px, 4px 66px, 4px 100%, 100% 100%, 100% 0%, 0% 0%);
+  -webkit-animation: gradient 3s ease-in-out infinite, border 1s forwards ease-in-out reverse; }
+
+.livebutton > span {
+  display: inline-block;
+  background: linear-gradient(120deg, #E62878, white, #E62878);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-animation: gradient 3s ease-in-out infinite;
+  -webkit-animation: gradient 3s ease-in-out infinite;
+  animation: gradient 3s ease-in-out infinite; }
+
+/* helpers */
+.absolute-centering, body:after, .livebutton, .livebutton:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto; }
+
+.livebutton {
+  position: relative;
+  margin: 0; }
+
+.text-formatting, .livebutton {
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 70px;
+  font-family: 'raleway';
+  font-weight: bolder;
+  font-size: 28px; }
+
+/* motion */
+@-moz-keyframes gradient {
+  0% {
+    background-position: 14% 0%; }
+  50% {
+    background-position: 87% 100%; }
+  100% {
+    background-position: 14% 0%; } }
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 14% 0%; }
+  50% {
+    background-position: 87% 100%; }
+  100% {
+    background-position: 14% 0%; } }
+@keyframes gradient {
+  0% {
+    background-position: 14% 0%; }
+  50% {
+    background-position: 87% 100%; }
+  100% {
+    background-position: 14% 0%; } }
+.destinations {
+  padding-bottom: 70px;
+  position: relative;
+  text-align: center; }
+  .destinations__content {
+    left: 15vw;
+    margin: 0px auto !important;
+    padding: 0px !important;
+    position: absolute;
+    top: 0px;
+    width: 70vw; }
+    .destinations__content__title {
+      font-family: "Dancing Script", cursive;
+      font-size: 4rem;
+      margin: 0px;
+      padding: 40px 0px 0px; }
+    .destinations__content .searchbar {
+      margin: 20px 0px 30px; }
+      .destinations__content .searchbar__input {
+        background: transparent;
+        border: #01b2bc solid 2px;
+        color: #01b2bc;
+        font-size: 1.1rem;
+        height: 40px;
+        padding: 20px;
+        text-align: left;
+        width: 50%; }
+      .destinations__content .searchbar__input:focus {
+        outline: none; }
+      .destinations__content .searchbar ::placeholder {
+        color: rgba(1, 178, 188, 0.8); }
+    .destinations__content .item-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+    .destinations__content .item {
+      box-sizing: border-box;
+      margin: 10px;
+      max-width: 30%;
+      min-width: 30%;
+      position: relative; }
+      .destinations__content .item__photo {
+        width: 100%; }
+      .destinations__content .item__title {
+        backdrop-filter: blur(3px);
+        background: rgba(0, 0, 0, 0.233);
+        bottom: 0px;
+        color: white;
+        font-size: 1.5rem;
+        margin: 0px;
+        padding: 10px 5px;
+        position: absolute;
+        text-align: center;
+        width: 100%; }
+
+@media all and (max-width: 1200px) {
+  .destinations__content {
+    left: 0px;
+    width: 100vw; }
+    .destinations__content__title {
+      padding: 20px 0px 10px 0px; } }
+@media all and (max-width: 768px) {
+  .destinations .destinations__content {
+    width: 100vw; }
+    .destinations .destinations__content .searchbar {
+      margin: 10px 0px; }
+      .destinations .destinations__content .searchbar__input {
+        width: 70%; }
+    .destinations .destinations__content .item {
+      margin: 5px;
+      max-width: 45%;
+      min-width: 45%; }
+      .destinations .destinations__content .item__title {
+        font-size: 1rem; } }
+.destination {
+  padding: 0px !important; }
+  .destination__content {
+    text-align: center; }
+    .destination__content h1 {
+      margin: 40px 0px 20px;
+      font-size: 50px;
+      font-weight: bolder; }
+    .destination__content h2 {
+      margin: 25px 0px; }
+    .destination__content__tags button {
+      border: 1px solid; }
+    .destination__content p {
+      color: #424244;
+      font-size: 16px;
+      margin: 15px 15px;
+      text-align: justify; }
+    .destination__content .markedtext {
+      background-color: #fee970;
+      font-size: 16px;
+      margin: 5px 15px;
+      padding: 10px;
+      text-align: center; }
+    .destination__content .slider {
+      margin: 20px auto 25px;
+      width: 80%; }
+      .destination__content .slider__slide {
+        position: relative; }
+        .destination__content .slider__slide__img {
+          border-radius: 20px;
+          width: 100%; }
+        .destination__content .slider__slide__title {
+          bottom: 0px;
+          color: white;
+          font-size: 20px;
+          position: absolute;
+          text-align: center;
+          width: 100%; }
+      .destination__content .slider__slide:focus {
+        outline: none; }
+      .destination__content .slider .slick-center img {
+        transform: scale(1.05);
+        transition: transform 1200ms linear; }
+      .destination__content .slider .slick-prev:before, .destination__content .slider .slick-next:before {
+        color: #424244;
+        opacity: 1; }
+
+footer {
+  background-color: #01b2bc;
+  margin-top: 50px;
+  text-align: center;
+  width: 100%; }
+  footer img {
+    margin: 20px auto 10px;
+    width: 300px; }
+
+/*# sourceMappingURL=index.css.map */
