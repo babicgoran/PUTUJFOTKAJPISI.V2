@@ -10,6 +10,7 @@ $font2: 'Dancing Script', cursive;
     font-family: $font1;
 }
 
+
 // COLORS
 $white: white;
 $grey: #424244;
@@ -27,6 +28,12 @@ $footer-color: #01b2bc;
     padding: 0px !important;
     width: 100%;
 }
+
+// @media all and (max-width: 1200px) {
+//     *, ::after, ::before {
+//         box-sizing: content-box !important;
+//     }
+// }
 
 @import 'homepage';
 @import 'destinations';

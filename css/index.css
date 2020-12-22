@@ -149,6 +149,11 @@
         color: #424244;
         opacity: 1; }
 
+@media all and (max-width: 768px) {
+  .destination *, .destination ::after, .destination ::before {
+    box-sizing: content-box !important; }
+  .destination .slider {
+    width: 100%; } }
 .livebutton {
   margin-top: 50px !important;
   display: inline-block;
@@ -225,7 +230,11 @@
     color: white;
     font-family: "Dancing Script", cursive;
     font-size: 1.2rem;
-    margin: 15px 20px; }
+    margin: 15px 25px; }
+  .navigation-bar a:hover {
+    color: white;
+    font-weight: bold;
+    text-decoration: none; }
 
 footer {
   background-color: #01b2bc;

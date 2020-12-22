@@ -7,6 +7,11 @@
         color: white;
         font-family: $font2;
         font-size: 1.2rem;
-        margin: 15px 20px;
+        margin: 15px 25px;
+    }
+    a:hover {
+        color: $white;
+        font-weight: bold;
+        text-decoration: none;
     }
 }

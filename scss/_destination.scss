@@ -73,8 +73,13 @@
 
 // }
 
-// @media all and (max-width: 768px) {
-//     .slider {
-//         width: 100%;
-//     }
-// }
+@media all and (max-width: 768px) {
+    .destination {
+        *, ::after, ::before {
+            box-sizing: content-box !important;
+        }
+        .slider {
+            width: 100%;
+        }
+    }
+}
