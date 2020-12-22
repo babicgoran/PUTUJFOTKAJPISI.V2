@@ -1,25 +1,20 @@
 .destinations {
-    padding-bottom: 70px;
-    position: relative;
     text-align: center;
 
     &__content {
-        left: 15vw;
         margin: 0px auto !important;
         padding: 0px !important;
-        position: absolute;
-        top: 0px;
-        width: 70vw;
+        width: 60vw;
 
         &__title {
             font-family: $font2;
             font-size: 4rem;
-            margin: 0px;
-            padding: 40px 0px 0px;
+            margin: 20px 0px 20px;
         }
     
         .searchbar {
-            margin: 20px 0px 30px;
+            margin: 30px 0px;
+
             &__input {
                 background: transparent;
                 border: $green solid 2px;
@@ -30,9 +25,11 @@
                 text-align: left;
                 width: 50%;
             }
+
             &__input:focus {
                 outline: none;
             }
+
             ::placeholder { 
                 color: rgba($color: $green, $alpha: 0.8);
               }
@@ -50,9 +47,11 @@
             max-width: 30%;
             min-width: 30%;
             position: relative;
+
             &__photo {
                 width: 100%;
             }
+
             &__title {
                 backdrop-filter: blur(3px);
                 background: rgba(0, 0, 0, 0.233);
@@ -73,9 +72,11 @@
 
 @media all and (max-width: 1200px) {
     .destinations {
+
         &__content {
             left: 0px;
             width: 100vw;
+
             &__title {
                 padding: 20px 0px 10px 0px;
             }
@@ -89,6 +90,7 @@
             width: 100vw;
             .searchbar {
                 margin: 10px 0px;
+
                 &__input {
                     width: 70%;
                 }
@@ -97,6 +99,7 @@
                 margin: 5px;
                 max-width: 45%;
                 min-width: 45%;
+                
                 &__title {
                     font-size: 1rem;
                 }

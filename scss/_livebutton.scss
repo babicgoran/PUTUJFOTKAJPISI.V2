@@ -22,9 +22,6 @@
 	-webkit-animation: gradient 3s ease-in-out infinite;
 	animation: gradient 3s ease-in-out infinite;
 }
-
-/* helpers */
-
 .absolute-centering, body:after, .livebutton, .livebutton:after {
 	position: absolute;
 	top: 0;
@@ -33,12 +30,10 @@
 	bottom: 0;
 	margin: auto;
 }
-
 .livebutton {
 	position: relative;
 	margin: 0;
 }
-
 .text-formatting, .livebutton {
 	text-transform: uppercase;
 	text-decoration: none;
@@ -49,8 +44,6 @@
 	font-weight: bolder;
 	font-size: 28px;
 }
-
-/* motion */
 
 @-moz-keyframes gradient {
 	0% {

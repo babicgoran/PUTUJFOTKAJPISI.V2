@@ -1,0 +1,12 @@
+.navigation-bar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    a {
+        color: white;
+        font-family: $font2;
+        font-size: 1.2rem;
+        margin: 15px 20px;
+    }
+}

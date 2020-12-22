@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 * {
   font-family: "Titillium Web", sans-serif; }
@@ -34,93 +34,18 @@
 @media all and (max-width: 768px) {
   .homepage {
     background-image: url(/images/homepage-mobile.jpg); } }
-.livebutton {
-  margin-top: 50px !important;
-  display: inline-block;
-  width: 220px;
-  height: 70px;
-  z-index: 11; }
-
-.livebutton:after {
-  content: '';
-  background: linear-gradient(120deg, #E62878, white, #E62878);
-  background-size: 400% 400%;
-  -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 66px, 4px 66px, 4px 100%, 100% 100%, 100% 0%, 0% 0%);
-  -webkit-animation: gradient 3s ease-in-out infinite, border 1s forwards ease-in-out reverse; }
-
-.livebutton > span {
-  display: inline-block;
-  background: linear-gradient(120deg, #E62878, white, #E62878);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-animation: gradient 3s ease-in-out infinite;
-  -webkit-animation: gradient 3s ease-in-out infinite;
-  animation: gradient 3s ease-in-out infinite; }
-
-/* helpers */
-.absolute-centering, body:after, .livebutton, .livebutton:after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto; }
-
-.livebutton {
-  position: relative;
-  margin: 0; }
-
-.text-formatting, .livebutton {
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
-  letter-spacing: 2px;
-  line-height: 70px;
-  font-family: 'raleway';
-  font-weight: bolder;
-  font-size: 28px; }
-
-/* motion */
-@-moz-keyframes gradient {
-  0% {
-    background-position: 14% 0%; }
-  50% {
-    background-position: 87% 100%; }
-  100% {
-    background-position: 14% 0%; } }
-@-webkit-keyframes gradient {
-  0% {
-    background-position: 14% 0%; }
-  50% {
-    background-position: 87% 100%; }
-  100% {
-    background-position: 14% 0%; } }
-@keyframes gradient {
-  0% {
-    background-position: 14% 0%; }
-  50% {
-    background-position: 87% 100%; }
-  100% {
-    background-position: 14% 0%; } }
 .destinations {
-  padding-bottom: 70px;
-  position: relative;
   text-align: center; }
   .destinations__content {
-    left: 15vw;
     margin: 0px auto !important;
     padding: 0px !important;
-    position: absolute;
-    top: 0px;
-    width: 70vw; }
+    width: 60vw; }
     .destinations__content__title {
       font-family: "Dancing Script", cursive;
       font-size: 4rem;
-      margin: 0px;
-      padding: 40px 0px 0px; }
+      margin: 20px 0px 20px; }
     .destinations__content .searchbar {
-      margin: 20px 0px 30px; }
+      margin: 30px 0px; }
       .destinations__content .searchbar__input {
         background: transparent;
         border: #01b2bc solid 2px;
@@ -223,6 +148,84 @@
       .destination__content .slider .slick-prev:before, .destination__content .slider .slick-next:before {
         color: #424244;
         opacity: 1; }
+
+.livebutton {
+  margin-top: 50px !important;
+  display: inline-block;
+  width: 220px;
+  height: 70px;
+  z-index: 11; }
+
+.livebutton:after {
+  content: '';
+  background: linear-gradient(120deg, #E62878, white, #E62878);
+  background-size: 400% 400%;
+  -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 66px, 4px 66px, 4px 100%, 100% 100%, 100% 0%, 0% 0%);
+  -webkit-animation: gradient 3s ease-in-out infinite, border 1s forwards ease-in-out reverse; }
+
+.livebutton > span {
+  display: inline-block;
+  background: linear-gradient(120deg, #E62878, white, #E62878);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-animation: gradient 3s ease-in-out infinite;
+  -webkit-animation: gradient 3s ease-in-out infinite;
+  animation: gradient 3s ease-in-out infinite; }
+
+.absolute-centering, body:after, .livebutton, .livebutton:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto; }
+
+.livebutton {
+  position: relative;
+  margin: 0; }
+
+.text-formatting, .livebutton {
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 70px;
+  font-family: 'raleway';
+  font-weight: bolder;
+  font-size: 28px; }
+
+@-moz-keyframes gradient {
+  0% {
+    background-position: 14% 0%; }
+  50% {
+    background-position: 87% 100%; }
+  100% {
+    background-position: 14% 0%; } }
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 14% 0%; }
+  50% {
+    background-position: 87% 100%; }
+  100% {
+    background-position: 14% 0%; } }
+@keyframes gradient {
+  0% {
+    background-position: 14% 0%; }
+  50% {
+    background-position: 87% 100%; }
+  100% {
+    background-position: 14% 0%; } }
+.navigation-bar {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+  .navigation-bar a {
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-size: 1.2rem;
+    margin: 15px 20px; }
 
 footer {
   background-color: #01b2bc;
