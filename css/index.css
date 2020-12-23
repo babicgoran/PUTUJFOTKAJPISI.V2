@@ -108,19 +108,30 @@
     text-align: center; }
     .destination__content h1 {
       margin: 40px 0px 20px;
+      font-family: "Dancing Script", cursive;
       font-size: 50px;
       font-weight: bolder; }
     .destination__content h2 {
       margin: 25px 0px; }
     .destination__content__tags button {
-      border: 1px solid; }
+      border: none;
+      color: white;
+      margin: 5px; }
+    .destination__content__tags .btn--travel {
+      background-color: #01b2bc; }
+    .destination__content__tags .btn--summer {
+      background-color: #ebec1c;
+      color: #424244; }
+    .destination__content__tags .btn--story {
+      background-color: #ff605d; }
     .destination__content p {
       color: #424244;
       font-size: 16px;
       margin: 15px 15px;
       text-align: justify; }
     .destination__content .markedtext {
-      background-color: #fee970;
+      background-color: #ebec1c;
+      color: #424244;
       font-size: 16px;
       margin: 5px 15px;
       padding: 10px;
@@ -228,12 +239,11 @@
   width: 100%; }
   .navigation-bar a {
     color: white;
-    font-family: "Dancing Script", cursive;
-    font-size: 1.2rem;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 1rem;
     margin: 15px 25px; }
   .navigation-bar a:hover {
     color: white;
-    font-weight: bold;
     text-decoration: none; }
 
 footer {

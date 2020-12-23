@@ -7,6 +7,7 @@
         text-align: center;
         h1 {
             margin: 40px 0px 20px;
+            font-family: $font2;
             font-size: 50px;
             font-weight: bolder;
         }
@@ -15,7 +16,19 @@
         }
         &__tags {
             button {
-                border: 1px solid; 
+                border: none;
+                color: white;
+                margin: 5px;
+            }
+            .btn--travel {
+                background-color: $green;
+            }
+            .btn--summer {
+                background-color: #ebec1c;
+                color: $grey;
+            }
+            .btn--story {
+                background-color: #ff605d;
             }
         }
         p {
@@ -25,7 +38,8 @@
             text-align: justify;
         }
         .markedtext {
-            background-color: #fee970;
+            background-color: #ebec1c;
+            color: $grey;
             font-size: 16px;
             margin: 5px 15px;
             padding: 10px;
