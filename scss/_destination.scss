@@ -6,10 +6,9 @@
     &__content {
         text-align: center;
         h1 {
-            margin: 40px 0px 20px;
+            margin: 20px 0px 20px;
             font-family: $font2;
-            font-size: 50px;
-            font-weight: bolder;
+            font-size: 4rem;
         }
         h2 {
             margin: 25px 0px;
@@ -17,8 +16,13 @@
         &__tags {
             button {
                 border: none;
-                color: white;
+                color: $white;
                 margin: 5px;
+            }
+            button:hover {
+                color: $white;
+                cursor: auto;
+                text-decoration: none;
             }
             .btn--travel {
                 background-color: $green;
@@ -28,7 +32,7 @@
                 color: $grey;
             }
             .btn--story {
-                background-color: #ff605d;
+                background-color: rgb(253, 68, 112);
             }
         }
         p {
@@ -60,9 +64,10 @@
                 &__title {
                     bottom: 0px;
                     color: $white;
-                    font-size: 20px;
+                    font-size: 2rem;
                     position: absolute;
                     text-align: center;
+                    text-shadow: 4px 4px 10px $grey;
                     width: 100%;
                 }
             }
@@ -74,7 +79,7 @@
                 transition: transform 1200ms linear;
             }
             .slick-prev:before, .slick-next:before {
-                color: $grey;
+                color: $pink;
                 opacity: 1;
             }
         }

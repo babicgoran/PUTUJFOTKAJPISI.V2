@@ -48,7 +48,7 @@
       margin: 30px 0px; }
       .destinations__content .searchbar__input {
         background: transparent;
-        border: #01b2bc solid 2px;
+        border: #01b2bc solid 3px;
         color: #01b2bc;
         font-size: 1.1rem;
         height: 40px;
@@ -107,23 +107,26 @@
   .destination__content {
     text-align: center; }
     .destination__content h1 {
-      margin: 40px 0px 20px;
+      margin: 20px 0px 20px;
       font-family: "Dancing Script", cursive;
-      font-size: 50px;
-      font-weight: bolder; }
+      font-size: 4rem; }
     .destination__content h2 {
       margin: 25px 0px; }
     .destination__content__tags button {
       border: none;
       color: white;
       margin: 5px; }
+    .destination__content__tags button:hover {
+      color: white;
+      cursor: auto;
+      text-decoration: none; }
     .destination__content__tags .btn--travel {
       background-color: #01b2bc; }
     .destination__content__tags .btn--summer {
       background-color: #ebec1c;
       color: #424244; }
     .destination__content__tags .btn--story {
-      background-color: #ff605d; }
+      background-color: #fd4470; }
     .destination__content p {
       color: #424244;
       font-size: 16px;
@@ -147,9 +150,10 @@
         .destination__content .slider__slide__title {
           bottom: 0px;
           color: white;
-          font-size: 20px;
+          font-size: 2rem;
           position: absolute;
           text-align: center;
+          text-shadow: 4px 4px 10px #424244;
           width: 100%; }
       .destination__content .slider__slide:focus {
         outline: none; }
@@ -157,7 +161,7 @@
         transform: scale(1.05);
         transition: transform 1200ms linear; }
       .destination__content .slider .slick-prev:before, .destination__content .slider .slick-next:before {
-        color: #424244;
+        color: #fd4470;
         opacity: 1; }
 
 @media all and (max-width: 768px) {
