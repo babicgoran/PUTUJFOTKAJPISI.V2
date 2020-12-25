@@ -1,7 +1,7 @@
 const faders = document.querySelectorAll('.item--lazy');
 
 const options = {
-    threshold: 0.25
+    threshold: 1
 };
 
 const appearOnScroll = new IntersectionObserver(function (entries, appearOnScroll) {
@@ -22,12 +22,6 @@ faders.forEach(fader => {
 }
 );
 
-// const images = document.querySelectorAll('[data-src]');
-
-// const imgOptions = {
-//     threshold: 0,
-// }
-
 function preloadImage(img) {
     const src = img.getAttribute('data-src');
     if (!src) {
@@ -35,20 +29,3 @@ function preloadImage(img) {
     }
     img.src = src;
 };
-
-// const imgObserver = new IntersectionObserver((entries, imgObserver) => {
-//     entries.forEach(entry => {
-//         if (!entry.isIntersecting) {
-//             return
-//         } else {
-//             preloadImage(entry.target)
-//             imgObserver.unobserve(entry.target)
-//         }
-//     })
-
-// }, imgOptions)
-
-
-// images.forEach(image =>
-//     imgObserver.observe(image)
-// )

@@ -8,7 +8,8 @@
 
 .row {
   padding: 0px !important;
-  width: 100%; }
+  width: 100%;
+  margin: 0 !important; }
 
 .homepage {
   align-items: center;
@@ -112,7 +113,8 @@
 .destination {
   padding: 0px !important; }
   .destination__content {
-    text-align: center; }
+    text-align: center;
+    padding: 0 !important; }
     .destination__content h1 {
       margin: 20px 0px 20px;
       font-family: "Dancing Script", cursive;
@@ -142,7 +144,7 @@
     .destination__content p {
       color: #424244;
       font-size: 16px;
-      margin: 15px 15px;
+      margin: 15px 20px;
       text-align: justify; }
     .destination__content .markedtext {
       background-color: #ebec1c;
@@ -170,15 +172,13 @@
       .destination__content .slider__slide:focus {
         outline: none; }
       .destination__content .slider .slick-center img {
-        transform: scale(1.05);
+        transform: scale(1.1);
         transition: transform 1200ms linear; }
       .destination__content .slider .slick-prev:before, .destination__content .slider .slick-next:before {
         color: #fd4470;
         opacity: 1; }
 
 @media all and (max-width: 768px) {
-  .destination *, .destination ::after, .destination ::before {
-    box-sizing: content-box !important; }
   .destination .slider {
     width: 100%; }
     .destination .slider__slide__title {
