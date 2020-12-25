@@ -112,9 +112,11 @@
       font-family: "Dancing Script", cursive;
       font-size: 4rem; }
     .destination__content h2 {
+      display: inline;
       margin: 25px 0px; }
     .destination__content__tags button {
       border: none;
+      border-radius: none;
       color: white;
       margin: 5px; }
     .destination__content__tags button:hover {
@@ -159,7 +161,7 @@
       .destination__content .slider__slide:focus {
         outline: none; }
       .destination__content .slider .slick-center img {
-        transform: scale(1.05);
+        transform: scale(1.1);
         transition: transform 1200ms linear; }
       .destination__content .slider .slick-prev:before, .destination__content .slider .slick-next:before {
         color: #fd4470;
@@ -169,7 +171,9 @@
   .destination *, .destination ::after, .destination ::before {
     box-sizing: content-box !important; }
   .destination .slider {
-    width: 100%; } }
+    width: 100%; }
+    .destination .slider__slide__title {
+      font-size: 1.5rem; } }
 .livebutton {
   margin-top: 50px !important;
   display: inline-block;
@@ -253,7 +257,7 @@
 
 footer {
   background-color: #01b2bc;
-  margin-top: 50px;
+  margin-top: 80px;
   text-align: center;
   width: 100%; }
   footer img {
