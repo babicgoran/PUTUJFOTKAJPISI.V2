@@ -46,6 +46,7 @@
             margin: 10px;
             max-width: 30%;
             min-width: 30%;
+            min-height: 150px;
             position: relative;
 
             &__photo {
@@ -65,6 +66,15 @@
                 width: 100%;
             }
         }
+        .item--lazy {
+            opacity: 0;
+            transition: opacity 350ms ease-in;
+        }
+        
+        .appear {
+            opacity: 1;
+        }
+        
     }
 }
 
