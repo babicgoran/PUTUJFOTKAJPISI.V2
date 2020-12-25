@@ -12,28 +12,29 @@
 
 .homepage {
   align-items: center;
-  background-image: url(/images/homepage-desktop.jpg);
+  background-image: url(/images/homepage-desktop.webp);
   background-size: cover;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   max-height: 100vh;
-  min-height: 100vh;
-  width: 100%; }
+  min-height: 100vh; }
   .homepage__title {
     font-family: "Dancing Script", cursive;
     font-size: 4.5rem;
     text-align: center;
+    text-shadow: 4px 4px 10px #424244;
     width: 90%; }
   .homepage__subtitle {
     font-size: 2.5rem;
     text-align: center;
+    text-shadow: 4px 4px 10px #424244;
     width: 90%; }
 
 @media all and (max-width: 768px) {
   .homepage {
-    background-image: url(/images/homepage-mobile.jpg); } }
+    background-image: url(/images/homepage-mobile.webp); } }
 .destinations {
   text-align: center; }
   .destinations__content {
