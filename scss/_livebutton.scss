@@ -1,48 +1,47 @@
 .livebutton {
-    margin-top: 50px !important;
 	display: inline-block;
-	width: 220px;
 	height: 70px;
+    margin-top: 50px !important;
+	width: 220px;
 	z-index: 11;
 }
 .livebutton:after {
-	content: '';
-	background: linear-gradient(120deg, #E62878, $white, #E62878);
+	background: linear-gradient(120deg, $pink, $pink, $green);
 	background-size: 400% 400%;
-	-webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 66px, 4px 66px, 4px 100%, 100% 100%, 100% 0%, 0% 0%);
+	content: '';
 	-webkit-animation: gradient 3s ease-in-out infinite, border 1s forwards ease-in-out reverse;
+	-webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 66px, 4px 66px, 4px 100%, 100% 100%, 100% 0%, 0% 0%);
 }
-.livebutton>span {
+.livebutton>p {
+	// animation: gradient 3s ease-in-out infinite;
+	// background: linear-gradient(120deg, #E62878, $white, #E62878);
+	// background-size: 100%;
+	color: $white;
 	display: inline-block;
-	background: linear-gradient(120deg, #E62878, $white, #E62878);
-	background-size: 100%;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	-moz-animation: gradient 3s ease-in-out infinite;
-	-webkit-animation: gradient 3s ease-in-out infinite;
-	animation: gradient 3s ease-in-out infinite;
+	text-shadow: 4px 4px 10px $grey;
+	// -moz-animation: gradient 3s ease-in-out infinite;
+	// -webkit-animation: gradient 3s ease-in-out infinite;
+	// -webkit-background-clip: text;
+	// -webkit-text-fill-color: $white;
 }
 .absolute-centering, body:after, .livebutton, .livebutton:after {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
 	bottom: 0;
+	left: 0;
 	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 .livebutton {
-	position: relative;
 	margin: 0;
+	position: relative;
 }
 .text-formatting, .livebutton {
-	text-transform: uppercase;
-	text-decoration: none;
-	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
 	letter-spacing: 2px;
 	line-height: 70px;
-	font-family: 'raleway';
-	font-weight: bolder;
-	font-size: 28px;
+	text-align: center;
 }
 
 @-moz-keyframes gradient {

@@ -13,11 +13,13 @@
         }
     
         .searchbar {
+            display: block;
             margin: 30px 0px;
 
             &__input {
                 background: transparent;
                 border: $green solid 3px;
+                border-radius: 10px;
                 color: $green;
                 font-size: 1.1rem;
                 height: 40px;
@@ -32,7 +34,8 @@
 
             ::placeholder { 
                 color: rgba($color: $green, $alpha: 0.8);
-              }
+                text-align: left;
+            }
         }
 
         .item-container {

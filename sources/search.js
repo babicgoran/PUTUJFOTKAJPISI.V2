@@ -18,7 +18,7 @@ var destinations = [
   { city: 'BERLIN', country: 'NEMAČKA', url: 'https://www.putujfotkajpisi.rs/Destinacije/nemacka/berlin/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/berlin.jpg' },
   { city: 'LISABON', country: 'PORTUGAL', url: 'https://www.putujfotkajpisi.rs/Destinacije/portugal/lisabon/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/lisabon.jpg' },
   { city: 'PORTO', country: 'PORTUGAL', url: 'https://www.putujfotkajpisi.rs/Destinacije/portugal/porto/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/porto.jpg' },
-  { city: 'MOSKVA', country: 'RUSIJA', url: 'https://www.putujfotkajpisi.rs/Destinacije/rusija/moskva/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/moskva.jpg' },
+  { city: 'MOSKVA', country: 'RUSIJA', url: 'https://www.putujfotkajpisi.rs/destinacije/rusija/moskva/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/moskva.jpg' },
   { city: 'DEL. PEŠČARA', country: 'SRBIJA', url: 'https://www.putujfotkajpisi.rs/destinacije/srbija/deliblatska_pescara/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/deliblatska-pescara.jpg' },
   { city: 'STARA PLANINA', country: 'SRBIJA', url: 'https://www.putujfotkajpisi.rs/destinacije/srbija/stara_planina/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/stara-planina.jpg' },
   { city: 'TAJLAND SAVETI', country: 'TAJLAND', url: 'https://www.putujfotkajpisi.rs/Destinacije/Tajland/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/tajland.jpg' },
