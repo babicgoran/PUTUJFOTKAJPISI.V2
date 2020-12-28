@@ -123,7 +123,8 @@
       font-family: "Dancing Script", cursive;
       font-size: 4rem; }
     .destination__content h2 {
-      margin: 25px 0px; }
+      margin: 25px 0px;
+      padding: 0px 15px; }
     .destination__content__tags button {
       border: none;
       border-radius: none;
@@ -173,15 +174,17 @@
           border-radius: 20px;
           width: 100%; }
         .destination__content .slider__slide__title {
-          background-color: rgba(0, 0, 0, 0.5);
+          background-color: rgba(0, 0, 0, 0.4);
           bottom: 0px;
           color: white;
-          font-size: 2rem;
+          display: inline-block !important;
+          font-size: 1.5rem;
           margin: 0px;
+          padding: 0px 5px;
           position: absolute;
+          right: 20px;
           text-align: center;
-          text-shadow: 4px 4px 10px #424244;
-          width: 100%; }
+          text-shadow: 4px 4px 10px #424244; }
       .destination__content .slider__slide:focus {
         outline: none; }
       .destination__content .slider .slick-center img {
@@ -195,7 +198,7 @@
   .destination .slider {
     width: 100%; }
     .destination .slider__slide__title {
-      font-size: 1.5rem; } }
+      font-size: 1rem; } }
 .livebutton {
   display: inline-block;
   height: 70px;

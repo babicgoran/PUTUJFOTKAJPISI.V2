@@ -1,13 +1,3 @@
-// CLASSIC MENU
-// document.write('\
-//     <nav class="navigation-bar col-12" id="gradient">\
-//         <a href="https://www.putujfotkajpisi.rs/">Home</a>\
-//         <a href="https://www.putujfotkajpisi.rs/destinacije/index.html">Destinacije</a>\
-//         <a href="https://www.putujfotkajpisi.rs/kontakt/index.html">Kontakt</a>\
-//     </nav>\
-// ')
-
-// NAVBAR RESPONSIVE
 document.write('\
 <header class="row" id="gradient">\
 <nav class="navbar navbar-expand-lg navbar-light col-xl-8 col-12">\
