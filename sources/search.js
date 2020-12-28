@@ -6,7 +6,7 @@ var LIST = document.querySelector('.js-search-list')
 var destinations = [
   { city: 'KRUMLOV', country: 'ČEŠKA REPUBLIKA', url: 'https://www.putujfotkajpisi.rs/Destinacije/ceska/krumlov/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/krumlov.jpg' },
   { city: 'PRAG', country: 'ČEŠKA REPUBLIKA', url: 'https://www.putujfotkajpisi.rs/Destinacije/ceska/prag/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/prag.jpg' },
-  { city: 'PARIZ', country: 'FRANCUSKA', url: 'https://www.putujfotkajpisi.rs/Destinacije/francuska/pariz/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/pariz.jpg' },
+  { city: 'PARIZ', country: 'FRANCUSKA', url: 'https://www.putujfotkajpisi.rs/destinacije/francuska/pariz/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/pariz.jpg' },
   { city: 'KOUFONISI', country: 'GRČKA', url: 'https://www.putujfotkajpisi.rs/Destinacije/grcka/koufonisi/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/koufonisi.jpg' },
   { city: 'LEFKADA', country: 'GRČKA', url: 'https://www.putujfotkajpisi.rs/Destinacije/grcka/lefkada/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/lefkada.jpg' },
   { city: 'MIKONOS', country: 'GRČKA', url: 'https://www.putujfotkajpisi.rs/Destinacije/grcka/mikonos/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/mikonos.jpg' },

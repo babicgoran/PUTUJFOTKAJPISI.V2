@@ -171,7 +171,7 @@
       .destination__content .slider__slide {
         position: relative; }
         .destination__content .slider__slide__img {
-          border-radius: 20px;
+          border-radius: 10px;
           width: 100%; }
         .destination__content .slider__slide__title {
           background-color: rgba(0, 0, 0, 0.4);
@@ -188,7 +188,7 @@
       .destination__content .slider__slide:focus {
         outline: none; }
       .destination__content .slider .slick-center img {
-        transform: scale(1.1);
+        transform: scale(1.05);
         transition: transform 1200ms linear; }
       .destination__content .slider .slick-prev:before, .destination__content .slider .slick-next:before {
         color: #fd4470;
