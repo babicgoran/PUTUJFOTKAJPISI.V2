@@ -14,7 +14,7 @@ var destinations = [
   { city: 'PAROS', country: 'GRČKA', url: 'https://www.putujfotkajpisi.rs/Destinacije/grcka/paros/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/paros.jpg' },
   { city: 'RODOS', country: 'GRČKA', url: 'https://www.putujfotkajpisi.rs/Destinacije/grcka/rodos/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/rodos.jpg' },
   { city: 'SANTORINI', country: 'GRČKA', url: 'https://www.putujfotkajpisi.rs/Destinacije/grcka/santorini/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/santorini.jpg' },
-  { city: 'PORTOFINO', country: 'ITALIJA', url: 'https://www.putujfotkajpisi.rs/Destinacije/italija/portofino/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/portofino.jpg' },
+  { city: 'PORTOFINO', country: 'ITALIJA', url: 'https://www.putujfotkajpisi.rs/destinacije/italija/portofino/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/portofino.jpg' },
   { city: 'BERLIN', country: 'NEMAČKA', url: 'https://www.putujfotkajpisi.rs/destinacije/nemacka/berlin/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/berlin.jpg' },
   { city: 'LISABON', country: 'PORTUGAL', url: 'https://www.putujfotkajpisi.rs/Destinacije/portugal/lisabon/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/lisabon.jpg' },
   { city: 'PORTO', country: 'PORTUGAL', url: 'https://www.putujfotkajpisi.rs/Destinacije/portugal/porto/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/porto.jpg' },
