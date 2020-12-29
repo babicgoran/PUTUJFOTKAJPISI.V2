@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html lang="sr">
+
+<html class="notranslate" lang="sr" translate="no">
 
 <head>
-    <!-- ANALITIKA -->
+    <!--GENERAL-->
+    <meta name="google" content="notranslate">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ANALYTICS -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167509538-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -13,24 +18,12 @@
     <!--SEO-->
     <meta name="author" content="Putuj Fotkaj Piši">
     <meta name="keywords" content="lisabon putovanje, lisabon putopis">
-    <meta name="description"
-        content="Sanjate putovanje u Lisabon? Posetite nas za korisne informacije koje će vam biti potrebne ukoliko planirate put u ovaj predivan grad.">
-    <meta name="og:title" property="og:title" content="Lisabon | Putovanje i Putopis">
-    <!--OPŠTE-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Da li ste spremni za putovanje u Lisabon?">
+    <meta name="og:title" property="og:title" content="Lisabon | Putovanje, Putopis">
     <!--TITLE-->
-    <title>Lisabon - Putovanje i Putopis</title>
-    <!--Favicon-->
-    <link rel='icon' href='/fotografije_naslovna/favicon.png' type='image/x-icon'>
-    <!--FONT Naslov-->
-    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
-    <!--FONT Tekst-->
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-    <!--FONT Instagram-->
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
-    <!--CSS-->
-    <link rel="stylesheet" type="text/css" href="./../../../css/main.css">
+    <title>Lisabon - Putovanje, Putopis</title>
+    <!--FAVICON-->
+    <link rel='icon' href='../../../images/favicon.png' type='image/x-icon'>
     <!--BOOTSTRAP-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -43,400 +36,368 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../css/index.css">
+    <!-- SLICK PHOTO SLIDER -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <!-- ANIMATION -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 </head>
 
 <body>
-    <main class="container-fluid">
-        <!--MENI-->
-        <header class="row">
-            <script src="../../../header.js"></script>
-        </header>
-        <!--GLAVNI DEO-->
-        <section class="row glavni">
-            <!--SADRŽAJ-->
-            <main class="col-xl-7 sadrzaj">
-                <section class="row centriranje">
-                    <!--Glavni Naslov-->
-                    <h1 class="col-xl-12 glavninaslov">Lisabon - Putovanje i Putopis</h1>
-                    <!--Tekst-->
+    <div class="container-fluid destination">
 
-                    <p class="col-xl-12">
-                        <strong>Lisabon</strong> je najveći i glavni grad Portugala. Predstavlja 3. najveći grad
-                        Iberijskog polustrva (odmah iza <a
-                            href="https://www.putujfotkajpisi.rs/Destinacije/spanija/madrid/index.html"
-                            target="_blank">Madrida</a> i Barselone), a šire područje <strong>Lisabona</strong>
-                        naseljava skoro 3 miliona ljudi.
-                        On je i najzapadnija prestonica Evrope, a nedaleko od njega se nalazi i najzapadnija tačka
-                        kopnenog dela kontinenta. <strong>Lisabon</strong> je važan turistički centar i jedan je od
-                        najposećenijih gradova Evrope. Godišnje ga poseti preko 3 miliona turista.
-                    </p>
+        <!-- MENU -->
+        <script src="../../../sources/navbar.js"></script>
 
-                    <!--SEKCIJA ZA JEDNU FOTOGRAFIJU-->
-                    <div class='col-xl-8 col-md-6 col-11 fotoalbum centriranje'>
-                        <img src="./fotografije/lisabon panorama.JPEG" class="punasirina" alt='panorama lisabona'>
+        <div class="row">
+
+            <!-- LEFT ASIDE -->
+
+            <aside class="destination__leftaside col-xl-2 col-0"></aside>
+
+            <!-- CONTENT -->
+
+            <main class="destination__content col-xl-8 col-12">
+
+                <h1>Lisabon</h1>
+
+                <div class="destination__content__tags">
+                    <button type="button" class="btn btn--travel">Lisabon Putovanje</button>
+                    <button type="button" class="btn btn--story">Lisabon Putopis</button>
+                </div>
+
+                <p>
+                    <strong>Lisabon</strong> je najveći i glavni grad Portugala. Predstavlja 3. najveći grad
+                    Iberijskog polustrva (odmah iza
+                    <a href="https://www.putujfotkajpisi.rs/destinacije/spanija/madrid/index.html"
+                        target="_blank">Madrida</a> i Barselone), a šire područje <strong>Lisabona</strong>
+                    naseljava skoro 3 miliona ljudi. On je i najzapadnija prestonica Evrope, a nedaleko od njega se
+                    nalazi i najzapadnija tačka kopnenog dela kontinenta. <strong>Lisabon</strong> je važan turistički
+                    centar i jedan je od najposećenijih gradova Evrope. Godišnje ga poseti preko 3 miliona turista.
+                </p>
+
+                <!-- SLIDER -->
+                <div class="slider">
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-2.JPEG" alt="lisabon">
+                        <p class="slider__slide__title">
+                            Simbol Grada
+                        </p>
                     </div>
-                    <p class="col-xl-12 ispodteksta">Pogled na grad sa jednog od brežuljaka</p>
-
-                    <!--SEKCIJA ZA ISTAKNUTI TEKST-->
-                    <h2 class="col-xl-12 istaknuto">
-                        <em>"<strong>Lisabon</strong> je smešten na brežuljcima sa kojih imate fantastičan pogled na
-                            panoramu grada."</em>
-                    </h2>
-
-                    <p class="col-xl-12">
-                        Leta u <strong>Lisabonu</strong> su topla, zime blage, ali je jedna od glavnih karakteristika
-                        - mnogo padavina zbog blizine okeana. Budite spremni na iznenadne pljuskove u bilo koje doba
-                        godine.
-                    </p>
-
-                    <!--SEKCIJA ZA JEDNU FOTOGRAFIJU-->
-                    <div class='col-xl-8 col-md-6 col-11 fotoalbum centriranje'>
-                        <img src="./fotografije/tramvaj lisabon zuti.JPEG" class="punasirina"
-                            alt='zuti tramvaj iz lisabona'>
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-1.JPEG" alt="lisabon">
+                        <p class="slider__slide__title">
+                            Panorama
+                        </p>
                     </div>
-                    <p class="col-xl-12 ispodteksta">Žuti tramvaj kao simbol <strong>Lisabona</strong></p>
+                </div>
 
-                    <p class="col-xl-12">
-                        Smeštaj smo odabrali u najpopularnijem distriktu koji se naziva Alfama.
-                        To je i najstariji deo <strong>Lisabona</strong> i smešten je na uzvišenju iznad reke Tagus u
-                        strogom centru grada. Najpoznatiji lisabonski restorani se nalaze u ovom delu, a centar je i
-                        večernjih zbivanja. Ovde se nalazi i nekoliko noćnih klubova gde je tradicionalno na reportoaru
-                        fado muzika.
-                    </p>
+                <p class="markedtext">
+                    <strong>Lisabon</strong> je smešten na brežuljcima sa kojih imate fantastičan pogled na panoramu
+                    grada.
+                </p>
 
-                    <!--SEKCIJA ZA DVE FOTOGRAFIJE-->
-                    <section class="col-xl-12">
-                        <section class="row fotoalbumDupli">
-                            <div class="col-xl-6 col-md-6 centriranje">
-                                <img class="punasirina" src="./fotografije/lisabon alfama.JPEG" alt="alfama lisabon">
-                            </div>
-                            <div class="col-xl-6 col-md-6 centriranje">
-                                <img class="punasirina" src="./fotografije/lisabon arhitektura.JPEG"
-                                    alt="arhitektura lisabona">
-                            </div>
-                        </section>
-                        <section class="row">
-                            <p class="col-xl-12 ispodteksta">
-                                Alfama, <strong>Lisabon</strong>
-                            </p>
-                        </section>
-                    </section>
+                <p>
+                    Leta u <strong>Lisabonu</strong> su topla, zime blage, ali je jedna od glavnih karakteristika -
+                    mnogo padavina zbog blizine okeana. Budite spremni na iznenadne pljuskove u bilo koje doba godine.
+                </p>
 
-                    <!--SEKCIJA ZA ISTAKNUTI TEKST-->
-                    <h2 class="col-xl-12 istaknuto">
-                        <em>"U <strong>Lisabonu</strong> smo proveli 5 dana i možemo reći da je to sasvim dovoljno da se
-                            obiđu najbitnije lokacije i oseti duh grada."</em>
-                    </h2>
+                <p>
+                    Smeštaj smo odabrali u najpopularnijem distriktu koji se naziva Alfama. To je i najstariji deo
+                    <strong>Lisabona</strong> i smešten je na uzvišenju iznad reke Tagus u strogom centru grada.
+                    Najpoznatiji lisabonski restorani se nalaze u ovom delu, a centar je i večernjih zbivanja. Ovde se
+                    nalazi i nekoliko noćnih klubova gde je tradicionalno na reportoaru fado muzika.
+                </p>
 
-                    <p class="col-xl-12">
-                        Portugal je postojbina fado muzike. Fado je inspirisan životom portugalskog naroda i njegovim
-                        svakodnevnim brigama. Karakterišu ga tužne melodije i tekstovi, najčešće o moru i teškom životu
-                        siromašnih. Naziv potiče od latinske reči "fatum" - sudbina. Nastao je mešanjem
-                        različitih žanrova, a kao mesto nastanka se ističe Alfama i to pre više od dve
-                        stotine godina.
-                    </p>
-
-                    <!--SEKCIJA ZA JEDNU FOTOGRAFIJU-->
-                    <div class='col-xl-8 col-md-6 col-11 fotoalbum centriranje'>
-                        <img src="./fotografije/fado muzej.JPEG" class="punasirina" alt='muzej fado muzike u lisabonu'>
+                <!-- SLIDER -->
+                <div class="slider">
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-3.JPEG" alt="lisabon">
+                        <p class="slider__slide__title">
+                            Alfama
+                        </p>
                     </div>
-                    <p class="col-xl-12 ispodteksta">Muzej Fado muzike u Alfami</p>
-
-                    <!--SEKCIJA ZA ISTAKNUTI TEKST-->
-                    <h2 class="col-xl-12 istaknuto">
-                        <em>"<strong>Lisabon</strong> je grad iz kojeg je započinjala većina istraživačkih poduhvata i
-                            ekspedicija u vreme ere otkrivanja novih kontinenata. <br> Neko bi ove poduhvate nazvao i
-                            kolonizatorskim."</em>
-                    </h2>
-
-                    <p class="col-xl-12">
-                        <strong>Lisabon</strong> je danas moderan grad. Jedna je od najvećih prestonica Evropske Unije.
-                        Želimo da istaknemo, da i pored svoje pozicije u EU, velike turističke popularnosti i relativno
-                        razvijene privrede, građani Portugala, pa i <strong>Lisabona</strong> (kao najbogatijeg
-                        dela države) - žive veoma skromno.
-                        Mnogi od njih su prinuđeni da se bave dodatnim poslom kako bi preživeli. Iz
-                        razgovora sa lokalcima, uvideli smo da ni njima nije nimalo lako i da njihova država ima zaista
-                        ozbiljne probleme.
-                    </p>
-
-                    <!--SEKCIJA ZA DVE FOTOGRAFIJE-->
-                    <section class="col-xl-12">
-                        <section class="row fotoalbumDupli">
-                            <div class="col-xl-6 col-md-6 centriranje">
-                                <img class="punasirina" src="./fotografije/lisabon glavna ulica.JPEG"
-                                    alt="glavna ulica u lisabonu">
-                            </div>
-                            <div class="col-xl-6 col-md-6 centriranje">
-                                <img class="punasirina" src="./fotografije/lisabon panorama grada.JPEG"
-                                    alt="panorama lisabona">
-                            </div>
-                        </section>
-                        <section class="row">
-                            <p class="col-xl-12 ispodteksta">
-                                Centralna pešačka zona i panorama grada
-                            </p>
-                        </section>
-                    </section>
-
-                    <!--SEKCIJA ZA ISTAKNUTI TEKST-->
-                    <h2 class="col-xl-12 istaknuto">
-                        <em>"Portugalci su veseli, gostoprimljivi, ljubazni i niskog rasta :)"</em>
-                    </h2>
-
-                    <!--SEKCIJA ZA DVE FOTOGRAFIJE-->
-                    <section class="col-xl-12">
-                        <section class="row fotoalbumDupli">
-                            <div class="col-xl-6 col-md-6 centriranje">
-                                <img class="punasirina" src="./fotografije/lisabon arhitektura 1.JPEG"
-                                    alt="arhitektura lisabona">
-                            </div>
-                            <div class="col-xl-6 col-md-6 centriranje">
-                                <img class="punasirina" src="./fotografije/lisabon vece.JPEG" alt="vece u lisabonu">
-                            </div>
-                        </section>
-                        <section class="row">
-                            <p class="col-xl-12 ispodteksta">
-                                Detalji iz grada
-                            </p>
-                        </section>
-                    </section>
-
-                    <p class="col-xl-12">
-                        Transport u gradu je dobro organizovan. Postoji metro sistem (4 linije) i njega bismo
-                        preporučili za prevoz do aerodroma (karta oko 1,5€). Po gradu je najpopularniji prevoz
-                        tramvajima. Vožnja tramvajem strmim ulicama je jedna od stvari koje su obavezne za svakog
-                        turistu u <strong>Lisabonu</strong>. Ukoliko ima potrebe postoje i gradski autobusi. Cene su
-                        veoma pristupačne, a postoji mogućnost kupovine dnevnih karata. Taksi nismo koristili tokom
-                        boravka u <strong>Lisabonu</strong>.
-                        Detaljnije o prevozu u <strong>Lisabonu</strong> na <a href="https://www.lisbon.net/transport"
-                            target="_blank">sledećem linku</a>.
-                    </p>
-
-                    <!--SEKCIJA ZA DVE FOTOGRAFIJE-->
-                    <section class="col-xl-12">
-                        <section class="row fotoalbumDupli">
-                            <div class="col-xl-6 col-md-6 centriranje">
-                                <img class="punasirina" src="./fotografije/tramvaj lisabon.JPEG" alt="tramvaj lisabon">
-                            </div>
-                            <div class="col-xl-6 col-md-6 centriranje">
-                                <img class="punasirina" src="./fotografije/tramvaj standardni.JPEG"
-                                    alt="tramvaj kao glavno prevozno sredstvo u lisabonu">
-                            </div>
-                        </section>
-                        <section class="row">
-                            <p class="col-xl-12 ispodteksta">
-                                Tramvaji <strong>Lisabona</strong>
-                            </p>
-                        </section>
-                    </section>
-
-                    <!--SEKCIJA ZA ISTAKNUTI TEKST-->
-                    <h2 class="col-xl-12 istaknuto">
-                        <em>"<strong>Lisabon</strong> je jedan od najstarijih gradova sveta i druga je najstarija
-                            prestonica Evrope - samo je Atina starija."</em>
-                    </h2>
-
-                    <p class="col-xl-12">
-                        Od hrane u <strong>Lisabonu</strong>, pored ribe, najveći utisak je ostavio njihov
-                        nacionalni kolač Pastel De Nata. Lisnato testo, sa fantastičnim filom od vanile, retko koga
-                        ostavlja ravnodušnim. Dnevno smo trošili skoro pola kilograma ovog slatkiša :)
-                    </p>
-
-                    <!--SEKCIJA ZA DVE FOTOGRAFIJE-->
-                    <section class="col-xl-12">
-                        <section class="row fotoalbumDupli">
-                            <div class="col-xl-6 col-md-6 centriranje">
-                                <img class="punasirina" src="./fotografije/lisabon pastel de nata.JPEG"
-                                    alt="pastel de nata u lisabonu">
-                            </div>
-                            <div class="col-xl-6 col-md-6 centriranje">
-                                <img class="punasirina" src="./fotografije/lisabon pekara.JPEG"
-                                    alt="slatkisi u portugalu">
-                            </div>
-                        </section>
-                        <section class="row">
-                            <p class="col-xl-12 ispodteksta">
-                                Pastel De Nata i ostali slatkiši
-                            </p>
-                        </section>
-                    </section>
-
-                    <!--SEKCIJA ZA ISTAKNUTI TEKST-->
-                    <h2 class="col-xl-12 istaknuto">
-                        <em>"Na ulicama grada će vam često prilaziti i nuditi različite opijate. <br> Konzumiranje i
-                            posedovanje droga je ovde dozvoljeno ukoliko je za sopstvene potrebe. Stop za opijate bilo
-                            koje vrste."</em>
-                    </h2>
-
-                    <p class="col-xl-12">
-                        Arhitektura grada je zanimljiva. Oseća se autentičan duh nekih davnih vremena. Često ćete
-                        primetiti šmek muslimanske istorije u pojedinim delovima grada, jer je ova regija često bila
-                        pod naletom osvajača iz Afrike. U gradu ima dosta znamenitosti koje bi trebalo posetiti. Mi
-                        ćemo vam predstaviti one koje su nama bila najzanimljivija.
-                    </p>
-
-                    <!--SEKCIJA ZA DVE FOTOGRAFIJE-->
-                    <section class="col-xl-12">
-                        <section class="row fotoalbumDupli">
-                            <div class="col-xl-6 col-md-6 centriranje">
-                                <img class="punasirina" src="./fotografije/lisabon kapija.JPEG" alt="kapija u lisabonu">
-                            </div>
-                            <div class="col-xl-6 col-md-6 centriranje">
-                                <img class="punasirina" src="./fotografije/lisabon arhitektura noc.JPEG"
-                                    alt="vecernja atmosfera">
-                            </div>
-                        </section>
-                        <section class="row">
-                            <p class="col-xl-12 ispodteksta">
-                                Arhitektura je na trenutke zadivljujuća
-                            </p>
-                        </section>
-                    </section>
-
-                    <p class="col-xl-12">
-                        Tvrđava Sao Jorge se nalazi na brdu u centru <strong>Lisabona</strong>.
-                        Sagrađena je u 8. veku na temeljima
-                        utvrđenja iz 1. veka pre nove ere. Sa zidina se pruža prelep pogled na grad.
-                    </p>
-
-                    <!--SEKCIJA ZA JEDNU FOTOGRAFIJU-->
-                    <div class='col-xl-8 col-md-6 col-11 fotoalbum centriranje'>
-                        <img src="./fotografije/tvrdjava.JPEG" class="punasirina" alt='tvrdjava'>
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-4.JPEG" alt="lisabon">
                     </div>
-                    <p class="col-xl-12 ispodteksta"><strong>Sao Jorge tvrđava</strong></p>
-
-                    <p class="col-xl-12">
-                        Kula Belem je utvrđenje iz 16. veka i predstavlja mesto gde su se
-                        brodovi svečano ukrcavali i iskrcavali pri polasku ili povratku sa velikih ekspedicija u
-                        kolonijalnoj eri. Od 1983. je pod zaštitom UNESCO-a. Često se predstavlja kao simbol evropskih
-                        pohoda u doba otkrivanja drugih kontinenata.
-                    </p>
-
-                    <!--SEKCIJA ZA JEDNU FOTOGRAFIJU-->
-                    <div class='col-xl-8 col-md-6 col-11 fotoalbum centriranje'>
-                        <img src="./fotografije/lisabon belem.jpeg" class="punasirina" alt='belem kula lisabon'>
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-5.JPEG" alt="lisabon">
+                        <p class="slider__slide__title">
+                            Muzej Fado muzike
+                        </p>
                     </div>
-                    <p class="col-xl-12 ispodteksta">Belem</p>
+                </div>
 
-                    <p class="col-xl-12">
-                        Praca do Comercio je centralni trg u <strong>Lisabonu</strong>. Nalazi se na
-                        reci Tagus, a trg je još poznat pod imenom Terreiro do Paco. Današnji izgled je dobio nakon
-                        rekonstrukcije, zbog posledica zemljotresa 1775. godine u kojem je uništeno preko 85% grada, a
-                        stradalo skoro 20% populacije.
-                    </p>
+                <p class="markedtext">
+                    U <strong>Lisabonu</strong> smo proveli 5 dana i možemo reći da je to sasvim dovoljno da se
+                    obiđu najbitnije lokacije i oseti duh grada.
+                </p>
 
-                    <!--SEKCIJA ZA JEDNU FOTOGRAFIJU-->
-                    <div class='col-xl-8 col-md-6 col-11 fotoalbum centriranje'>
-                        <img src="./fotografije/trg.JPEG" class="punasirina" alt='glavni gradski trg'>
+                <p>
+                    Portugal je postojbina fado muzike. Fado je inspirisan životom portugalskog naroda i njegovim
+                    svakodnevnim brigama. Karakterišu ga tužne melodije i tekstovi, najčešće o moru i teškom životu
+                    siromašnih. Naziv potiče od latinske reči "fatum" - sudbina. Nastao je mešanjem različitih žanrova,
+                    a kao mesto nastanka se ističe Alfama i to pre više od dve stotine godina.
+                </p>
+
+                <p class="markedtext">
+                    <strong>Lisabon</strong> je grad iz kojeg je započinjala većina istraživačkih poduhvata i
+                    ekspedicija u vreme ere otkrivanja novih kontinenata. Neko bi ove poduhvate nazvao i
+                    kolonizatorskim.
+                </p>
+
+                <p>
+                    <strong>Lisabon</strong> je danas moderan grad. Jedna je od najvećih prestonica Evropske Unije.
+                    Želimo da istaknemo, da i pored svoje pozicije u EU, velike turističke popularnosti i relativno
+                    razvijene privrede, građani Portugala, pa i <strong>Lisabona</strong> (kao najbogatijeg dela države)
+                    - žive veoma skromno. Mnogi od njih su prinuđeni da se bave dodatnim poslom kako bi preživeli. Iz
+                    razgovora sa lokalcima, uvideli smo da ni njima nije nimalo lako i da njihova država ima zaista
+                    ozbiljne probleme.
+                </p>
+
+                <!-- SLIDER -->
+                <div class="slider">
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-6.JPEG" alt="lisabon">
+                        <p class="slider__slide__title">
+                            Centralna zona
+                        </p>
                     </div>
-                    <p class="col-xl-12 ispodteksta"><strong>Praca do Comercio</strong></p>
-
-                    <p class="col-xl-12">
-                        Padrao dos Descobrimentos je spomenik na severnoj obali reke Tagus. Smešten je nedaleko od
-                        mesta odakle su brodovi kretali u ekspedicije i trgovinu sa Indijom i Orijentom.
-                        Spomenik slavi portugalsko doba otkrića tokom 15. i 16. veka.
-                    </p>
-
-                    <!--SEKCIJA ZA JEDNU FOTOGRAFIJU-->
-                    <div class='col-xl-8 col-md-6 col-11 fotoalbum centriranje'>
-                        <img src="./fotografije/Padrão dos Descobrimentos.jpeg" class="punasirina" alt='spomenik'>
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-7.JPEG" alt="lisabon">
                     </div>
-                    <p class="col-xl-12 ispodteksta">Padrao dos Descobrimentos</p>
-
-                    <p class="col-xl-12">
-                        Avenida da Liberdade je najvažniji bulevar u <strong>Lisabonu</strong>. Poznat
-                        je kao jedna od najskupljih ulica za šoping u celoj Evropi. Predstavlja najcenjeniju adresu na
-                        kojoj možete da živite u Portugalu. Tu se nalaze i sedišta mnogih ambasada, konzulata i
-                        diplomatskih misija.
-                    </p>
-
-                    <!--SEKCIJA ZA JEDNU FOTOGRAFIJU-->
-                    <div class='col-xl-8 col-md-6 col-11 fotoalbum centriranje'>
-                        <img src="./fotografije/lisabon arhitektura 2.JPEG" class="punasirina" alt='avenija'>
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-8.JPEG" alt="lisabon">
                     </div>
-                    <p class="col-xl-12 ispodteksta">Avenida da Liberdade</p>
-
-                    <p class="col-xl-12">
-                        Most 25. April spaja <strong>Lisabon</strong> sa zapadnom stranom reke Tagus. Često se poredi sa
-                        mostom Golden Gate u San Francisku, sa kojim deli određene sličnosti.
-                    </p>
-
-                    <!--SEKCIJA ZA JEDNU FOTOGRAFIJU-->
-                    <div class='col-xl-8 col-md-6 col-11 fotoalbum centriranje'>
-                        <img src="./fotografije/lisabon Ponte 25 de Abril.JPEG" class="punasirina" alt='most 25. april'>
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-9.JPEG" alt="lisabon">
                     </div>
-                    <p class="col-xl-12 ispodteksta">Most 25. April</p>
+                </div>
 
-                    <p class="col-xl-12">
-                        Crkva Santa Engracia je spomenik iz 17. veka. Prvobitno je služila kao crkva, ali je sredinom
-                        20. veka konvertovana u Nacionalni Pantheon, u koji se sahranjuju tela ljudi od izuzetne
-                        nacionalne važnosti. Nalazi se u srcu Alfame.
-                    </p>
+                <p class="markedtext">
+                    Portugalci su veseli, gostoprimljivi, ljubazni i niskog rasta :)
+                </p>
 
-                    <!--SEKCIJA ZA JEDNU FOTOGRAFIJU-->
-                    <div class='col-xl-8 col-md-6 col-11 fotoalbum centriranje'>
-                        <img src="./fotografije/lisabon crkva.JPEG" class="punasirina" alt='panteon lisabon'>
+                <p>
+                    Transport u gradu je dobro organizovan. Postoji metro sistem (4 linije) i njega bismo preporučili za
+                    prevoz do aerodroma (karta oko 1,5€). Po gradu je najpopularniji prevoz tramvajima. Vožnja tramvajem
+                    strmim ulicama je jedna od stvari koje su obavezne za svakog turistu u <strong>Lisabonu</strong>.
+                    Ukoliko ima potrebe postoje i gradski autobusi. Cene su veoma pristupačne, a postoji mogućnost
+                    kupovine dnevnih karata. Taksi nismo koristili tokom boravka u <strong>Lisabonu</strong>. Detaljnije
+                    o prevozu u <strong>Lisabonu</strong> na <a href="https://www.lisbon.net/transport" target="_blank"
+                        rel="noreferrer">sledećem linku</a>.
+                </p>
+
+                <!-- SLIDER -->
+                <div class="slider">
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-10.JPEG" alt="lisabon">
+                        <p class="slider__slide__title">
+                            Tramvaji Lisabona
+                        </p>
                     </div>
-                    <p class="col-xl-12 ispodteksta">Pantheon</p>
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-11.JPEG" alt="lisabon">
+                    </div>
+                </div>
 
-                    <p class="col-xl-12">
-                        Park Eduarda VII je najpoznatiji park u <strong>Lisabonu</strong>. U južnom delu se nastavlja na
-                        Avenida da Liberdade. Ime je dobio po kralju Britanije (Edward VII), koji je posetio Portugal
-                        1902. godine, kako bi ojačao odnose ove dve države. Do te posete se zvao Park Slobode. Na
-                        severnom delu parka se nalazi vidikovac, ali i najveća zastava Portugala na svetu.
-                    </p>
+                <p class="markedtext">
+                    <strong>Lisabon</strong> je jedan od najstarijih gradova sveta i druga je najstarija
+                    prestonica Evrope - samo je Atina starija.
+                </p>
 
-                    <!--SEKCIJA ZA DVE FOTOGRAFIJE-->
-                    <section class="col-xl-12">
-                        <section class="row fotoalbumDupli">
-                            <div class="col-xl-6 col-md-6 centriranje">
-                                <img class="punasirina" src="./fotografije/Parque Eduardo 7.JPEG" alt="park u lisabonu">
-                            </div>
-                            <div class="col-xl-6 col-md-6 centriranje">
-                                <img class="punasirina" src="./fotografije/Parque Eduardo 7. 1.JPEG"
-                                    alt="zastava portugala">
-                            </div>
-                        </section>
-                        <section class="row">
-                            <p class="col-xl-12 ispodteksta">
-                                Park, vidikovac i najveća zastava Portugala
-                            </p>
-                        </section>
-                    </section>
+                <p>
+                    Od hrane u <strong>Lisabonu</strong>, pored ribe, najveći utisak je ostavio njihov nacionalni kolač
+                    Pastel De Nata. Lisnato testo, sa fantastičnim filom od vanile, retko koga ostavlja ravnodušnim.
+                    Dnevno smo trošili skoro pola kilograma ovog slatkiša :)
+                </p>
 
-                    <!--SEKCIJA ZA ISTAKNUTI TEKST-->
-                    <h2 class="col-xl-12 istaknuto">
-                        Zaključak: <strong>Lisabon</strong> je grad sa neodoljivom harizmom, jedna od najlepših
-                        prestonica Evrope i centar jedne od najvećih kolonijalnih sila u istoriji čovečanstva.
-                        Pripremamo se za drugu posetu ovom gradu u skoroj budućnosti.
-                    </h2>
+                <!-- SLIDER -->
+                <div class="slider">
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-12.JPEG" alt="lisabon">
+                        <p class="slider__slide__title">
+                            Pastel De Nata
+                        </p>
+                    </div>
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-13.JPEG" alt="lisabon">
+                        <p class="slider__slide__title">
+                            Pekarice
+                        </p>
+                    </div>
+                </div>
 
-                    <!--PIŠITE NAM-->
-                    <p class="col-xl-12">
-                        <script src="/pisitenam.js"></script>
-                    </p>
+                <p class="markedtext">
+                    Na ulicama grada će vam često prilaziti i nuditi različite opijate. <br> Konzumiranje i posedovanje
+                    droga je ovde dozvoljeno ukoliko je za sopstvene potrebe. Stop za opijate bilo koje vrste.
+                </p>
 
-                </section>
+                <p>
+                    Arhitektura grada je zanimljiva. Oseća se autentičan duh nekih davnih vremena. Često ćete primetiti
+                    šmek muslimanske istorije u pojedinim delovima grada, jer je ova regija često bila pod naletom
+                    osvajača iz Afrike. U gradu ima dosta znamenitosti koje bi trebalo posetiti. Mi ćemo vam predstaviti
+                    one koje su nama bila najzanimljivija.
+                </p>
+
+                <!-- SLIDER -->
+                <div class="slider">
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-14.JPEG" alt="lisabon">
+                        <p class="slider__slide__title">
+                            Arhitektura
+                        </p>
+                    </div>
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-15.JPEG" alt="lisabon">
+                    </div>
+                </div>
+
+                <p>
+                    Tvrđava Sao Jorge se nalazi na brdu u centru <strong>Lisabona</strong>. Sagrađena je u 8. veku na
+                    temeljima utvrđenja iz 1. veka pre nove ere. Sa zidina se pruža prelep pogled na grad.
+                </p>
+
+                <p>
+                    Kula Belem je utvrđenje iz 16. veka i predstavlja mesto gde su se brodovi svečano ukrcavali i
+                    iskrcavali pri polasku ili povratku sa velikih ekspedicija u kolonijalnoj eri. Od 1983. je pod
+                    zaštitom UNESCO-a. Često se predstavlja kao simbol evropskih pohoda u doba otkrivanja drugih
+                    kontinenata.
+                </p>
+
+                <p>
+                    Praca do Comercio je centralni trg u <strong>Lisabonu</strong>. Nalazi se na reci Tagus, a trg je
+                    još poznat pod imenom Terreiro do Paco. Današnji izgled je dobio nakon rekonstrukcije, zbog
+                    posledica zemljotresa 1775. godine u kojem je uništeno preko 85% grada, a stradalo skoro 20%
+                    populacije.
+                </p>
+
+                <!-- SLIDER -->
+                <div class="slider">
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-16.JPEG" alt="lisabon">
+                        <p class="slider__slide__title">
+                            Sao Jorge
+                        </p>
+                    </div>
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-17.JPEG" alt="lisabon">
+                        <p class="slider__slide__title">
+                            Praca do Comercio
+                        </p>
+                    </div>
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-18.jpeg" alt="lisabon">
+                        <p class="slider__slide__title">
+                            Belem
+                        </p>
+                    </div>
+                </div>
+
+                <p>
+                    Padrao dos Descobrimentos je spomenik na severnoj obali reke Tagus. Smešten je nedaleko od mesta
+                    odakle su brodovi kretali u ekspedicije i trgovinu sa Indijom i Orijentom. Spomenik slavi
+                    portugalsko doba otkrića tokom 15. i 16. veka.
+                </p>
+
+                <p>
+                    Avenida da Liberdade je najvažniji bulevar u <strong>Lisabonu</strong>. Poznat je kao jedna od
+                    najskupljih ulica za šoping u celoj Evropi. Predstavlja najcenjeniju adresu na kojoj možete da
+                    živite u Portugalu. Tu se nalaze i sedišta mnogih ambasada, konzulata i diplomatskih misija.
+                </p>
+
+                <!-- SLIDER -->
+                <div class="slider">
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-19.jpeg" alt="lisabon">
+                        <p class="slider__slide__title">
+                            Padrao dos Descobrimentos
+                        </p>
+                    </div>
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-20.JPEG" alt="lisabon">
+                        <p class="slider__slide__title">
+                            Avenida da Liberdade
+                        </p>
+                    </div>
+                </div>
+
+                <p>
+                    Most 25. April spaja <strong>Lisabon</strong> sa zapadnom stranom reke Tagus. Često se poredi sa
+                    mostom Golden Gate u San Francisku, sa kojim deli određene sličnosti.
+                </p>
+
+                <p>
+                    Crkva Santa Engracia je spomenik iz 17. veka. Prvobitno je služila kao crkva, ali je sredinom 20.
+                    veka konvertovana u Nacionalni Pantheon, u koji se sahranjuju tela ljudi od izuzetne nacionalne
+                    važnosti. Nalazi se u srcu Alfame.
+                </p>
+
+                <!-- SLIDER -->
+                <div class="slider">
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-21.JPEG" alt="lisabon">
+                        <p class="slider__slide__title">
+                            Most 25. April
+                        </p>
+                    </div>
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-22.JPEG" alt="lisabon">
+                        <p class="slider__slide__title">
+                            Pantheon
+                        </p>
+                    </div>
+                </div>
+
+                <p>
+                    Park Eduarda VII je najpoznatiji park u <strong>Lisabonu</strong>. U južnom delu se nastavlja na
+                    Avenida da Liberdade. Ime je dobio po kralju Britanije (Edward VII), koji je posetio Portugal 1902.
+                    godine, kako bi ojačao odnose ove dve države. Do te posete se zvao Park Slobode. Na severnom delu
+                    parka se nalazi vidikovac, ali i najveća zastava Portugala na svetu.
+                </p>
+
+                <!-- SLIDER -->
+                <div class="slider">
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-24.JPEG" alt="lisabon">
+                        <p class="slider__slide__title">
+                            Park Eduarda VII
+                        </p>
+                    </div>
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/lisabon-23.JPEG" alt="lisabon">
+                    </div>
+                </div>
+
+                <h2>Zaključak</h2>
+
+                <p class="markedtext">
+                    <strong>Lisabon</strong> je grad sa neodoljivom harizmom, jedna od najlepših prestonica Evrope i
+                    centar jedne od najvećih kolonijalnih sila u istoriji čovečanstva. Pripremamo se za drugu posetu
+                    ovom gradu u skoroj budućnosti.
+                </p>
 
             </main>
-            <!--BANER-->
-            <aside class="col-xl-3">
-                <!--Brzi Meni-->
-                <section class='row brziMeni'>
-                    <a class="col-xl-10 brzaDestinacija"
-                        href="https://www.putujfotkajpisi.rs/Destinacije/portugal/porto/index.html">
-                        <img class='pin' src="../../../fotografije_naslovna/pin.png">Porto</a>
-                </section>
-            </aside>
 
-        </section>
+            <!-- RIGHT ASIDE -->
 
-        <!--FUTER-->
-        <footer id='futer' class="row destinacije futer">
-            <script src="/footer.js"></script>
-        </footer>
+            <aside class="destination__rightaside col-xl-2 col-0"></aside>
 
-    </main>
+        </div>
+
+        <!-- FOOTER -->
+        <script src="../../../sources/footer.js"></script>
+
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- NAVBAR -->
+    <script src="../../../sources/animation.js"></script>
+    <script type="text/javascript" src="../../../sources/slider.js"></script>
+
 </body>
 
 </html>
