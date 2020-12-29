@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html lang="sr">
+
+<html class="notranslate" lang="sr" translate="no">
 
 <head>
-    <!-- ANALITIKA -->
+    <!--GENERAL-->
+    <meta name="google" content="notranslate">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ANALYTICS -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167509538-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -13,24 +18,12 @@
     <!--SEO-->
     <meta name="author" content="Putuj Fotkaj Piši">
     <meta name="keywords" content="madrid putovanje, madrid putopis">
-    <meta name="description"
-        content="Planirate putovanje u Madrid? Posetite nas za korisne informacije koje će vam biti potrebne prilikom planiranja puta u ovaj predivan grad.">
-    <meta name="og:title" property="og:title" content="Madrid | Putovanje i Putopis">
-    <!--OPŠTE-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Da li ste spremni za putovanje u Madrid?">
+    <meta name="og:title" property="og:title" content="Madrid | Putovanje, Putopis">
     <!--TITLE-->
-    <title>Madrid - Putovanje i Putopis</title>
-    <!--Favicon-->
-    <link rel='icon' href='/fotografije_naslovna/favicon.png' type='image/x-icon'>
-    <!--FONT Naslov-->
-    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
-    <!--FONT Tekst-->
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-    <!--FONT Instagram-->
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
-    <!--CSS-->
-    <link rel="stylesheet" type="text/css" href="./../../../css/main.css">
+    <title>Madrid - Putovanje, Putopis</title>
+    <!--FAVICON-->
+    <link rel='icon' href='../../../images/favicon.png' type='image/x-icon'>
     <!--BOOTSTRAP-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -43,252 +36,231 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../css/index.css">
+    <!-- SLICK PHOTO SLIDER -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <!-- ANIMATION -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 </head>
 
 <body>
-    <main class="container-fluid">
-        <!--MENI-->
-        <header class="row">
-            <script src="../../../header.js"></script>
-        </header>
-        <!--GLAVNI DEO-->
-        <section class="row glavni">
-            <!--SADRŽAJ-->
-            <main class="col-xl-7 sadrzaj">
-                <section class="row centriranje">
-                    <!--Glavni Naslov-->
-                    <h1 class="col-xl-12 glavninaslov">Madrid - Putovanje i Putopis</h1>
-                    <!--Tekst-->
+    <div class="container-fluid destination">
 
-                    <p class="col-xl-12">
-                        <strong>Madrid</strong> je glavni grad Španije i treći najveći grad Evropske
-                        Unije. Predstavlja ekonomski, privredni i politički centar Španije, a osim vlade u njemu je
-                        smešten i španski kralj.
-                        <strong>Madrid</strong> je glavni grad od sredine 16. veka i predstavlja prestonicu koja se
-                        nalazi na najvišoj nadmorskoj visini u Evropi. Leta su suva i veoma topla, a zime kratke i
-                        intenzivne. Veliki procenat stanovništva čine imigranti, pre svega iz Južne Amerike.
-                    </p>
+        <!-- MENU -->
+        <script src="../../../sources/navbar.js"></script>
 
-                    <p class="col-xl-12">
-                        Odlučili smo se da u <strong>Madridu</strong> provedemo produženi vikend (4 dana), a prvobitni
-                        cilj posete je bio odlazak na utakmicu fudbalskog kluba <strong>Real Madrid</strong>. Smeštaj
-                        smo odabarali u strogom centru grada, kako
-                        bismo što manje vremena trošili na saobraćaj. Cene <strong>smeštaja u Madridu</strong> su više
-                        nego na drugim destinacijama koje smo posetili u Španiji, ali na nivou
-                        drugih visokoposećenih prestonica u Evropi (Rim, Pariz...).
-                    </p>
+        <div class="row">
 
-                    <!--SEKCIJA ZA JEDNU FOTOGRAFIJU-->
-                    <div class='col-xl-8 col-md-6 col-11 fotoalbum centriranje'>
-                        <img src="./fotografije/panorama.jpeg" class="punasirina" alt='pogled na madrid'>
+            <!-- LEFT ASIDE -->
+
+            <aside class="destination__leftaside col-xl-2 col-0"></aside>
+
+            <!-- CONTENT -->
+
+            <main class="destination__content col-xl-8 col-12">
+
+                <h1>Madrid</h1>
+
+                <div class="destination__content__tags">
+                    <button type="button" class="btn btn--travel">Madrid Putovanje</button>
+                    <button type="button" class="btn btn--story">Madrid Putopis</button>
+                </div>
+
+                <p>
+                    <strong>Madrid</strong> je glavni grad Španije i treći najveći grad Evropske Unije. Predstavlja
+                    ekonomski, privredni i politički centar Španije, a osim vlade u njemu je smešten i španski kralj.
+                    <strong>Madrid</strong> je glavni grad od sredine 16. veka i predstavlja prestonicu koja se
+                    nalazi na najvišoj nadmorskoj visini u Evropi. Leta su suva i veoma topla, a zime kratke i
+                    intenzivne. Veliki procenat stanovništva čine imigranti, pre svega iz Južne Amerike.
+                </p>
+
+                <p>
+                    Odlučili smo se da u <strong>Madridu</strong> provedemo produženi vikend (4 dana), a prvobitni
+                    cilj posete je bio odlazak na utakmicu fudbalskog kluba <strong>Real Madrid</strong>. Smeštaj
+                    smo odabarali u strogom centru grada, kako bismo što manje vremena trošili na saobraćaj. Cene
+                    <strong>smeštaja u Madridu</strong> su više nego na drugim destinacijama koje smo posetili u
+                    Španiji, ali na nivou drugih visokoposećenih prestonica u Evropi (Rim, Pariz...).
+                </p>
+
+                <!-- SLIDER -->
+                <div class="slider">
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/madrid-1.jpeg" alt="madrid">
                     </div>
-                    <p class="col-xl-12 ispodteksta">Panorama <strong>Madrida</strong></p>
-
-                    <p class="col-xl-12">
-                        Let smo organizovali iz Temišvara, jer je cena bila znatno povoljnija nego da
-                        smo koristili direktan <strong>let Beograd-Madrid</strong> (Air Serbia). Iz Temišvara je
-                        povratna karta bila 80€,
-                        a iz Beograda skoro 300€. Pritom su se i bolje uklapala vremena letova za soluciju iz
-                        Temišvara, a kada se na neku lokaciju ide na ovako kratak period, od velikog je uticaja da li
-                        je let jutarnji ili večernji.
-                    </p>
-
-                    <!--SEKCIJA ZA ISTAKNUTI TEKST-->
-                    <h2 class="col-xl-12 istaknuto">
-                        <em>"Vreme posete: Mart. Dužina boravka: 4 dana."</em>
-                    </h2>
-
-                    <!--SEKCIJA ZA JEDNU FOTOGRAFIJU-->
-                    <div class='col-xl-8 col-md-6 col-11 fotoalbum centriranje'>
-                        <img src="./fotografije/trg.jpeg" class="punasirina" alt='trg u madridu'>
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/madrid-2.jpeg" alt="madrid">
                     </div>
-                    <p class="col-xl-12 ispodteksta">Jedan od mnogobrojnih trgova u <strong>Madridu</strong></p>
+                </div>
 
-                    <p class="col-xl-12">
-                        Gradski <strong>prevoz u Madridu</strong> je dobro organizovan, ali su gužve u špicu redovna
-                        pojava kao i u drugim metropolama.
-                        <a href="https://www.metromadrid.es/en" target="_blank">Metro sistem Madrida</a> ima 13 linija,
-                        sa kojima možete da stignete u svaki deo grada. Prva linija je
-                        otvorena pre više od sto godina (1919.)! Cena karte je 1,5-2€ u zavisnosti od broja stanica.
-                    </p>
+                <p>
+                    Let smo organizovali iz Temišvara, jer je cena bila znatno povoljnija nego da smo koristili direktan
+                    <strong>let Beograd-Madrid</strong> (Air Serbia). Iz Temišvara je povratna karta bila 80€, a iz
+                    Beograda skoro 300€. Pritom su se i bolje uklapala vremena letova za soluciju iz Temišvara, a kada
+                    se na neku lokaciju ide na ovako kratak period, od velikog je uticaja da li je let jutarnji ili
+                    večernji.
+                </p>
 
-                    <!--SEKCIJA ZA JEDNU FOTOGRAFIJU-->
-                    <div class='col-xl-8 col-md-6 col-11 fotoalbum centriranje'>
-                        <img src="./fotografije/zastave u madridu.jpeg" class="punasirina"
-                            alt='zastave i protesti u madridu'>
+                <p class="markedtext">
+                    Vreme posete: Mart. Dužina boravka: 4 dana.
+                </p>
+
+                <p>
+                    Gradski <strong>prevoz u Madridu</strong> je dobro organizovan, ali su gužve u špicu redovna
+                    pojava kao i u drugim metropolama. <a href="https://www.metromadrid.es/en" target="_blank"
+                        rel="noreferrer"> Metro sistem Madrida</a> ima 13 linija, sa kojima možete da stignete u svaki
+                    deo grada. Prva linija je otvorena pre više od sto godina (1919.)! Cena karte je 1,5-2€ u zavisnosti
+                    od broja stanica.
+                </p>
+
+                <p>
+                    Prilikom naše posete, bili su aktuelni protesti u Barseloni povodom referenduma o otcepljenju. <br>
+                    Isticanje zastava na prozore, predstavlja odgovor Madriđana na celu situaciju.
+                </p>
+
+                <!-- SLIDER -->
+                <div class="slider">
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/madrid-3.jpeg" alt="madrid">
+                        <p class="slider__slide__title">
+                            Protest
+                        </p>
                     </div>
-                    <p class="col-xl-12 ispodteksta">Prilikom naše posete, bili su aktuelni protesti u
-                        Barseloni povodom referenduma o otcepljenju. <br> Isticanje zastava na prozore, predstavlja
-                        odgovor Madriđana na celu situaciju.</p>
-
-                    <p class="col-xl-12">
-                        <strong>Madrid</strong> je grad se veoma bogatom istorijom. Za razliku od naših gradova, nije
-                        često rušen i uništavan. Potrudili smo se da za ovako kratko vreme obiđemo većinu bitnih
-                        znamenitosti u gradu.
-                    </p>
-
-                    <!--SEKCIJA ZA DVE FOTOGRAFIJE-->
-                    <section class="col-xl-12">
-                        <section class="row fotoalbumDupli">
-                            <div class="col-xl-6 col-md-6 centriranje">
-                                <img class="punasirina" src="./fotografije/ulicama madrida.jpeg"
-                                    alt="stadion santiago bernabeu">
-                            </div>
-                            <div class="col-xl-6 col-md-6 centriranje">
-                                <img class="punasirina" src="./fotografije/madrid ulica.jpeg"
-                                    alt="santiago bernabeu madrid">
-                            </div>
-                        </section>
-                        <section class="row">
-                            <p class="col-xl-12 ispodteksta">
-                                <strong>Ulicama Madrida</strong>
-                            </p>
-                        </section>
-                    </section>
-
-                    <p class="col-xl-12">
-                        Gran Vía je <strong>centralna ulica u Madridu</strong> i epicentar svih
-                        dešavanja. Predstavlja omiljenu zonu za
-                        turiste koji su ovde veoma brojni. Ovde se nalaze brojni šoping centri, bioskopi, noćni klubovi,
-                        institucije kulture i čvorišta gradskog prevoza. Gužva je neminovna :)
-                    </p>
-
-                    <!--SEKCIJA ZA JEDNU FOTOGRAFIJU-->
-                    <div class='col-xl-8 col-md-6 col-11 fotoalbum centriranje'>
-                        <img src="./fotografije/gran via madrid.jpeg" class="punasirina" alt='gran via madrid'>
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/madrid-4.jpeg" alt="madrid">
                     </div>
-                    <p class="col-xl-12 ispodteksta">Ulica Gran Via u <strong>Madridu</strong></p>
+                </div>
 
-                    <p class="col-xl-12">
-                        <a href="https://www.museodelprado.es/en" target="_blank">Muzej Prado</a> je najčuveniji muzej
-                        Španije i jedan od najpoznatijih muzeja sveta. Nalazi se u
-                        centralnom delu <strong>Madrida</strong>, a posvećen je uglavnom slikarstvu. U njemu možete
-                        pronaći dela slavnih slikara Velaskeza, Goje, Botičelija, Karavađa, Rubensa, Rembranta...
-                        Nezaobilazna je lokacija ukoliko ste ljubitelj umetnosti.
-                    </p>
+                <p>
+                    <strong>Madrid</strong> je grad se veoma bogatom istorijom. Za razliku od naših gradova, nije često
+                    rušen i uništavan. Potrudili smo se da za ovako kratko vreme obiđemo većinu bitnih znamenitosti u
+                    gradu.
+                </p>
 
-                    <p class="col-xl-12">
-                        Plaza Mayor je čuveni trg u <strong>centru Madrida</strong>. Posmatrajući iz
-                        vazduha, trg ima oblik savršenog pravougaonika sa statuom Filipa III na sredini. Prva verzija
-                        trga je napravljena krajem 16. veka za vreme vladavine ovog vladara.
-                    </p>
+                <p>
+                    Gran Via je <strong>centralna ulica u Madridu</strong> i epicentar svih dešavanja. Predstavlja
+                    omiljenu zonu za turiste koji su ovde veoma brojni. Ovde se nalaze brojni šoping centri, bioskopi,
+                    noćni klubovi, institucije kulture i čvorišta gradskog prevoza. Gužva je neminovna :)
+                </p>
 
-                    <p class="col-xl-12">
-                        Puerta Del Sol (Kapija Sunca) je centralna tačka <strong>Madrida</strong>. Trg
-                        u koji se uliva nekoliko bitnih
-                        ulica, a ispod kog se ukrštaju 3 linije metroa. Najčešće mesto nalaženja Madriđana. U srednjem
-                        veku se ovde nalazila jedna od kapija gradske tvrđave. Predstavlja nulti kilometar za računanje
-                        radijalne mreže Španskih puteva.
-                    </p>
-
-                    <!--SEKCIJA ZA JEDNU FOTOGRAFIJU-->
-                    <div class='col-xl-8 col-md-6 col-11 fotoalbum centriranje'>
-                        <img src="./fotografije/Puerta Del Sol.jpeg" class="punasirina" alt='puerta del sol'>
+                <!-- SLIDER -->
+                <div class="slider">
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/madrid-5.jpeg" alt="madrid">
+                        <p class="slider__slide__title">
+                            Gran Via
+                        </p>
                     </div>
-                    <p class="col-xl-12 ispodteksta">Puerta Del Sol</p>
-
-                    <p class="col-xl-12">
-                        <a href="https://www.patrimonionacional.es/en/visita/royal-palace-madrid" target="_blank">The
-                            Royal Palace of Madrid</a>
-                        je zvanična rezidencija španske kraljevske porodice. Jedna je od
-                        najvećih palata ovog tipa u Evropi. Za posetu je neophodna ulaznica koje se može naručiti online
-                        ili na licu mesta, sat vremena pre posete. Cena ulaznica je 13€. Ukoliko planirate posetu,
-                        potražite najsvežije informacije na zvaničnoj prezentaciji. Sa jedne strane palate se nalazi
-                        prelep vrt koji je otvoren za posete, a ulaz se ne naplaćuje.
-                    </p>
-
-                    <p class="col-xl-12">
-                        Park El Retiro je najpopularnija zelena oaza u gradu. Popularna je zona za
-                        šetnju, trčanje i vežbanje na kraju dana. Centralna atrakcija parka je veštačko jezero na kom
-                        možete unajmiti čamac i uživati u prirodi u sred grada. Od kraja 19. veka je otvoren za javno
-                        korišćenje, a do tada je bio deo kraljevskog kompleksa.
-                    </p>
-
-                    <!--SEKCIJA ZA JEDNU FOTOGRAFIJU-->
-                    <div class='col-xl-8 col-md-6 col-11 fotoalbum centriranje'>
-                        <img src="./fotografije/park.jpeg" class="punasirina" alt='park u madridu'>
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/madrid-6.jpeg" alt="madrid">
+                        <p class="slider__slide__title">
+                            Puerta Del Sol
+                        </p>
                     </div>
-                    <p class="col-xl-12 ispodteksta">Palme u parku u centru <strong>Madrida</strong></p>
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/madrid-7.jpeg" alt="madrid">
+                    </div>
+                </div>
 
-                    <p class="col-xl-12">
-                        <a href="http://www.museodeljamon.com/" target="_blank">Museo Del Jamon</a> - naš favorit među
-                        muzejima :) - je lanac španskih
-                        restorana, koji je svoju priču zasnovao na kraljici domaće
-                        kuhinje - pršuti. Pršuta je nacionalni proizvod, a u ovim
-                        restoranima se služi u vidu tapasa, najčešće sa maslinama i sirevima uz čašu iberijskog vina.
-                    </p>
+                <p>
+                    <a href="https://www.museodelprado.es/en" target="_blank" rel="noreferrer">Muzej Prado</a> je
+                    najčuveniji muzej Španije i jedan od najpoznatijih muzeja sveta. Nalazi se u centru
+                    <strong>Madrida</strong>, a posvećen je uglavnom slikarstvu. U njemu možete pronaći dela slavnih
+                    slikara Velaskeza, Goje, Botičelija, Karavađa, Rubensa, Rembranta... Nezaobilazna je lokacija
+                    ukoliko ste ljubitelj umetnosti.
+                </p>
 
-                    <p class="col-xl-12">
-                        Glavni trenutak našeg putovanja je bio meč <strong>FK Real Madrid</strong>. Stadion
-                        Santiago Bernabeu je legendaran objekat, velelepan i raskošan, ali mu je neophodno
-                        renoviranje. Kultura i ponašanje posetilaca su na
-                        visokom nivou. U publici postoji veliki procenat turista iz dalekih zemalja, koji posetu
-                        ovakvom događaju smatraju atrakcijom <strong>Madrida</strong>, jednako kao i recimo
-                        muzej Prado (verovatno i atraktivnijom). Godišnje <strong>FC Real Madrid</strong> prihoduje više
-                        desetina miliona evra samo od ove stavke.
-                        Mi ćemo se i ovom prilikom zahvaliti našim domaćinima u Španiji koji su nam omogućili da
-                        posmatramo utakmicu iz počasne lože. Real je na kraju pobedio, a mi smo uživali u meču.
-                    </p>
+                <p>
+                    Plaza Mayor je čuveni trg u <strong>centru Madrida</strong>. Posmatrajući iz vazduha, trg ima oblik
+                    savršenog pravougaonika sa statuom Filipa III na sredini. Prva verzija trga je napravljena krajem
+                    16. veka za vreme vladavine ovog vladara.
+                </p>
 
-                    <!--SEKCIJA ZA DVE FOTOGRAFIJE-->
-                    <section class="col-xl-12">
-                        <section class="row fotoalbumDupli">
-                            <div class="col-xl-6 col-md-6 centriranje">
-                                <img class="punasirina" src="./fotografije/santiago bernabeu stadion.jpeg"
-                                    alt="stadion santiago bernabeu">
-                            </div>
-                            <div class="col-xl-6 col-md-6 centriranje">
-                                <img class="punasirina" src="./fotografije/santiago bernabeu.jpeg"
-                                    alt="santiago bernabeu madrid">
-                            </div>
-                        </section>
-                        <section class="row">
-                            <p class="col-xl-12 ispodteksta">
-                                Meč <strong>FK Real Madrid</strong> na stadionu Santiago Bernabeu
-                            </p>
-                        </section>
-                    </section>
+                <p>
+                    Puerta Del Sol (Kapija Sunca) je centralna tačka <strong>Madrida</strong>. Trg u koji se uliva
+                    nekoliko bitnih ulica, a ispod kog se ukrštaju 3 linije metroa. Najčešće mesto nalaženja Madriđana.
+                    U srednjem veku se ovde nalazila jedna od kapija gradske tvrđave. Predstavlja nulti kilometar za
+                    računanje radijalne mreže Španskih puteva.
+                </p>
 
-                    <!--SEKCIJA ZA ISTAKNUTI TEKST-->
-                    <h2 class="col-xl-12 istaknuto">
-                        Zaključak: <strong>Madrid</strong> je izuzetno lep grad. Kaže se da u <strong>Madridu</strong>
-                        žive pravi Španci.
-                        Ipak, mi prednost dajemo <a href="https://www.putujfotkajpisi.rs/Destinacije/spanija/valensija/"
-                            target="_blank">Valensiji</a> zbog plaža i izlaska na more.
-                    </h2>
+                <p>
+                    <a href="https://www.patrimonionacional.es/en/visita/royal-palace-madrid" target="_blank"
+                        rel="noreferrer">The Royal Palace of Madrid</a> je zvanična rezidencija španske kraljevske
+                    porodice. Jedna je od najvećih palata ovog tipa u Evropi. Za posetu je neophodna ulaznica koje se
+                    može naručiti online ili na licu mesta, sat vremena pre posete. Cena ulaznica je 13€. Ukoliko
+                    planirate posetu, potražite najsvežije informacije na zvaničnoj prezentaciji. Sa jedne strane palate
+                    se nalazi prelep vrt koji je otvoren za posete, a ulaz se ne naplaćuje.
+                </p>
 
-                    <!--PIŠITE NAM-->
-                    <p class="col-xl-12">
-                        <script src="/pisitenam.js"></script>
-                    </p>
+                <p>
+                    Park El Retiro je najpopularnija zelena oaza u gradu. Popularna je zona za šetnju, trčanje i
+                    vežbanje na kraju dana. Centralna atrakcija parka je veštačko jezero na kom možete unajmiti čamac i
+                    uživati u prirodi u sred grada. Od kraja 19. veka je otvoren za javno korišćenje, a do tada je bio
+                    deo kraljevskog kompleksa.
+                </p>
 
-                </section>
+                <p>
+                    <a href="http://www.museodeljamon.com/" target="_blank" rel="noreferrer">Museo Del Jamon</a> - naš
+                    favorit među muzejima :) - je lanac španskih restorana, koji je svoju priču zasnovao na kraljici
+                    domaće kuhinje - pršuti. Pršuta je nacionalni proizvod, a u ovim restoranima se služi u vidu tapasa,
+                    najčešće sa maslinama i sirevima uz čašu iberijskog vina.
+                </p>
+
+                <!-- SLIDER -->
+                <div class="slider">
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/madrid-8.jpeg" alt="madrid">
+                        <p class="slider__slide__title">
+                            Santiago Bernabeu
+                        </p>
+                    </div>
+                    <div class="slider__slide" style="margin: 15px;">
+                        <img class="slider__slide__img" src="./fotografije/madrid-9.jpeg" alt="madrid">
+                        <p class="slider__slide__title">
+                            Real Madrid - Girona 6:3
+                        </p>
+                    </div>
+                </div>
+
+                <p>
+                    Glavni trenutak našeg putovanja je bio meč <strong>FK Real Madrid</strong>. Stadion Santiago
+                    Bernabeu je legendaran objekat, velelepan i raskošan, ali mu je neophodno renoviranje. Kultura i
+                    ponašanje posetilaca su na visokom nivou. U publici postoji veliki procenat turista iz dalekih
+                    zemalja, koji posetu ovakvom događaju smatraju atrakcijom <strong>Madrida</strong>, jednako kao i
+                    recimo muzej Prado (verovatno i atraktivnijom). Godišnje <strong>FC Real Madrid</strong> prihoduje
+                    više desetina miliona evra samo od ove stavke. Mi ćemo se i ovom prilikom zahvaliti našim domaćinima
+                    u Španiji koji su nam omogućili da posmatramo utakmicu iz počasne lože. Real je na kraju pobedio, a
+                    mi smo uživali u meču.
+                </p>
+
+                <h2>Zaključak</h2>
+
+                <p class="markedtext">
+                    <strong>Madrid</strong> je lep grad. Kaže se da u <strong>Madridu</strong> žive pravi Španci. Ipak,
+                    mi prednost dajemo <a href="https://www.putujfotkajpisi.rs/destinacije/spanija/valensija/"
+                        target="_blank">Valensiji</a> zbog plaža i mora.
+                </p>
 
             </main>
-            <!--BANER-->
-            <aside class="col-xl-3">
-                <!--Brzi Meni-->
-                <section class='row brziMeni'>
-                    <a class="col-xl-10 brzaDestinacija"
-                        href="https://www.putujfotkajpisi.rs/Destinacije/spanija/valensija/index.html">
-                        <img class='pin' src="../../../fotografije_naslovna/pin.png">Valensija</a>
-                    <a class="col-xl-10 brzaDestinacija"
-                        href="https://www.putujfotkajpisi.rs/Destinacije/spanija/fuerteventura/index.html">
-                        <img class='pin' src="../../../fotografije_naslovna/pin.png">Fuerteventura</a>
-                    <a class="col-xl-10 brzaDestinacija"
-                        href="https://www.putujfotkajpisi.rs/Destinacije/spanija/segovija/index.html">
-                        <img class='pin' src="../../../fotografije_naslovna/pin.png">Segovija</a>
-                </section>
-            </aside>
 
-        </section>
+            <!-- RIGHT ASIDE -->
 
-        <!--FUTER-->
-        <footer id='futer' class="row destinacije futer">
-            <script src="/footer.js"></script>
-        </footer>
+            <aside class="destination__rightaside col-xl-2 col-0"></aside>
 
-    </main>
+        </div>
+
+        <!-- FOOTER -->
+        <script src="../../../sources/footer.js"></script>
+
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- NAVBAR -->
+    <script src="../../../sources/animation.js"></script>
+    <script type="text/javascript" src="../../../sources/slider.js"></script>
+
 </body>
 
 </html>

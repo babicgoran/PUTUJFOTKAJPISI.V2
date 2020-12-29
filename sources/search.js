@@ -32,10 +32,10 @@ var destinations = [
   { city: 'ISTANBUL', country: 'TURSKA', url: 'https://www.putujfotkajpisi.rs/destinacije/turska/istanbul/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/istanbul.jpg' },
   { city: 'KAPADOKIJA', country: 'TURSKA', url: 'https://www.putujfotkajpisi.rs/destinacije/turska/kapadokija/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/kapadokija.jpg' },
   { city: 'OLUDENIZ', country: 'TURSKA', url: 'https://www.putujfotkajpisi.rs/destinacije/turska/oludeniz/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/oludeniz.jpg' },
-  { city: 'FUERTEVENTURA', country: 'ŠPANIJA', url: 'https://www.putujfotkajpisi.rs/Destinacije/spanija/fuerteventura/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/fuerteventura.jpg' },
-  { city: 'MADRID', country: 'ŠPANIJA', url: 'https://www.putujfotkajpisi.rs/Destinacije/spanija/madrid/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/madrid.jpg' },
-  { city: 'SEGOVIJA', country: 'ŠPANIJA', url: 'https://www.putujfotkajpisi.rs/Destinacije/spanija/segovija/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/segovija.jpg' },
-  { city: 'VALENSIJA', country: 'ŠPANIJA', url: 'https://www.putujfotkajpisi.rs/Destinacije/spanija/valensija/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/valensija.jpg' },
+  { city: 'FUERTEVENTURA', country: 'ŠPANIJA', url: 'https://www.putujfotkajpisi.rs/destinacije/spanija/fuerteventura/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/fuerteventura.jpg' },
+  { city: 'MADRID', country: 'ŠPANIJA', url: 'https://www.putujfotkajpisi.rs/destinacije/spanija/madrid/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/madrid.jpg' },
+  { city: 'SEGOVIJA', country: 'ŠPANIJA', url: 'https://www.putujfotkajpisi.rs/destinacije/spanija/segovija/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/segovija.jpg' },
+  { city: 'VALENSIJA', country: 'ŠPANIJA', url: 'https://www.putujfotkajpisi.rs/destinacije/spanija/valensija/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/valensija.jpg' },
   { city: 'DUBAI', country: 'UAE', url: 'https://www.putujfotkajpisi.rs/destinacije/uae/dubai/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/dubai.jpg' },
 ]
 
