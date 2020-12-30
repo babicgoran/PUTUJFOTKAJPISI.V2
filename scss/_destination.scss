@@ -52,7 +52,7 @@
             background-color: #ebec1c;
             color: $grey;
             font-size: 16px;
-            margin: 5px 15px;
+            margin: 15px;
             padding: 10px;
             text-align: center;
         }
@@ -64,6 +64,11 @@
             background-color: $pink;
             color: $white;
             text-decoration: none;
+        }
+        .instagram-post {
+            display: none !important;
+            margin: auto !important;
+            width: 80%;
         }
 
         // SLIDER
@@ -117,6 +122,11 @@
 
 @media all and (max-width: 768px) {
     .destination {
+        .instagram-post {
+            display: block !important;
+            margin: auto !important;
+            width: 90% !important;
+        }
         .slider {
             width: 100%;
             &__slide {

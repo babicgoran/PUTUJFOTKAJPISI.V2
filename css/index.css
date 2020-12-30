@@ -153,7 +153,7 @@
       background-color: #ebec1c;
       color: #424244;
       font-size: 16px;
-      margin: 5px 15px;
+      margin: 15px;
       padding: 10px;
       text-align: center; }
     .destination__content a {
@@ -163,6 +163,10 @@
       background-color: #fd4470;
       color: white;
       text-decoration: none; }
+    .destination__content .instagram-post {
+      display: none !important;
+      margin: auto !important;
+      width: 80%; }
     .destination__content .slider {
       margin: 20px auto 25px;
       width: 70%; }
@@ -195,6 +199,10 @@
         opacity: 1; }
 
 @media all and (max-width: 768px) {
+  .destination .instagram-post {
+    display: block !important;
+    margin: auto !important;
+    width: 90% !important; }
   .destination .slider {
     width: 100%; }
     .destination .slider__slide__title {
