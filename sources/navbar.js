@@ -19,8 +19,8 @@ document.write('\
                 </a>\
             </li>\
             <li class="nav-item">\
-                <a class="nav-link" href="https://www.putujfotkajpisi.rs/kontakt/index.html">\
-                    Kontakt\
+                <a class="nav-link" href="https://www.putujfotkajpisi.rs/nasa_prica/index.html">\
+                    Naša Priča\
                 </a>\
             </li>\
         </ul>\
