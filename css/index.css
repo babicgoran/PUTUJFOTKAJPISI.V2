@@ -127,7 +127,7 @@
       padding: 0px 15px; }
     .destination__content__tags button {
       border: none;
-      border-radius: none;
+      border-radius: 5px;
       color: white;
       margin: 5px; }
     .destination__content__tags button:hover {
@@ -137,8 +137,7 @@
     .destination__content__tags .btn--travel {
       background-color: #01b2bc; }
     .destination__content__tags .btn--summer {
-      background-color: #ebec1c;
-      color: #424244; }
+      background-color: #ebec1c; }
     .destination__content__tags .btn--story {
       background-color: #fd4470; }
     .destination__content__tags .btn.focus, .destination__content__tags .btn:focus {
@@ -150,13 +149,15 @@
       margin: 15px 20px;
       text-align: justify; }
     .destination__content .markedtext {
-      background-color: #ebec1c;
+      background-color: rgba(235, 236, 28, 0.5);
+      border-radius: 5px;
       color: #424244;
       font-size: 16px;
       margin: 15px;
       padding: 10px;
       text-align: center; }
     .destination__content a {
+      border-bottom: dotted #fd4470 2px;
       color: #fd4470;
       font-weight: bold; }
     .destination__content a:hover {

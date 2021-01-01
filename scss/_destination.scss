@@ -18,7 +18,7 @@
         &__tags {
             button {
                 border: none;
-                border-radius: none;
+                border-radius: 5px;
                 color: $white;
                 margin: 5px;
             }
@@ -31,11 +31,10 @@
                 background-color: $green;
             }
             .btn--summer {
-                background-color: #ebec1c;
-                color: $grey;
+                background-color: $yellow;
             }
             .btn--story {
-                background-color: rgb(253, 68, 112);
+                background-color: $pink;
             }
             .btn.focus, .btn:focus {
                 box-shadow: none !important;
@@ -49,7 +48,8 @@
             text-align: justify;
         }
         .markedtext {
-            background-color: #ebec1c;
+            background-color: rgba(235, 236, 28, 0.5);
+            border-radius: 5px;
             color: $grey;
             font-size: 16px;
             margin: 15px;
@@ -57,6 +57,7 @@
             text-align: center;
         }
         a {
+            border-bottom: dotted $pink 2px;
             color: $pink;
             font-weight: bold;
         }
