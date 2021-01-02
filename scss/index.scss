@@ -28,9 +28,10 @@ $yellow: #ebec1c;
     width: 100%;
 }
 
+@import 'livebutton';
 @import 'homepage';
+@import 'navbar';
 @import 'destinations';
 @import 'destination';
-@import 'livebutton';
-@import 'navbar';
+@import 'advice';
 @import 'footer';
