@@ -25,16 +25,20 @@
     }
     &__button {
         background-color: rgba(0,0,0,0.3);
-        border: solid 5px $pink;
+        border: solid 5px;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(45deg, $yellow, $pink);
         color: $white;
         font-size: 25px;
         margin-top: 20px;
-        padding: 5px 30px;
+        padding: 5px 50px;
         text-align: center;
     }
     &__button:hover {
         color: $white;
-        border: $yellow solid 5px;
+        border: solid 5px;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(45deg, $pink, $yellow);
         text-decoration: none;
     }
 }

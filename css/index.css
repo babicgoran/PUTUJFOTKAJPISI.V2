@@ -34,15 +34,19 @@
     width: 90%; }
   .homepage__button {
     background-color: rgba(0, 0, 0, 0.3);
-    border: solid 5px #fd4470;
+    border: solid 5px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(45deg, #ebec1c, #fd4470);
     color: white;
     font-size: 25px;
     margin-top: 20px;
-    padding: 5px 30px;
+    padding: 5px 50px;
     text-align: center; }
   .homepage__button:hover {
     color: white;
-    border: #ebec1c solid 5px;
+    border: solid 5px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(45deg, #fd4470, #ebec1c);
     text-decoration: none; }
 
 @media all and (max-width: 768px) {
