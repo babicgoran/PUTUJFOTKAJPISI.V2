@@ -1,7 +1,7 @@
 // HOME PAGE
 .homepage {
     align-items: center;
-    background-image: url(/images/homepage-desktop.webp);
+    background-image: url(/images/homepage-desktop.jpg);
     background-size: cover;
     color: $white;
     display: flex;
@@ -10,7 +10,6 @@
     max-height: 100vh;
     min-height: 100vh;
     
-
     &__title {
         font-family: $font2;
         font-size: 4.5rem;
@@ -24,6 +23,21 @@
         text-shadow: 4px 4px 10px $grey;
         width: 90%;
     }
+    &__button {
+        background-color: rgba(0,0,0,0.3);
+        border: solid 5px $pink;
+        color: $white;
+        font-size: 25px;
+        margin-top: 20px;
+        padding: 10px;
+        text-align: center;
+        width: 150px;
+    }
+    &__button:hover {
+        border: $yellow solid 5px;
+        color: $white;
+        text-decoration: none;
+    }
 }
 
 // RESPONSIVE
@@ -31,5 +45,6 @@
 @media all and (max-width: 768px) {
     .homepage {
         background-image: url(/images/homepage-mobile.jpg);
+        padding-bottom: 100px;
     }
 }
