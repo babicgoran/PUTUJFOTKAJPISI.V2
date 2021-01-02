@@ -227,7 +227,7 @@ header {
       margin: 15px 20px;
       text-align: justify; }
     .destination__content .markedtext {
-      background-color: rgba(235, 236, 28, 0.5);
+      background-color: #ebec1c;
       border-radius: 5px;
       color: #424244;
       font-size: 16px;
@@ -278,6 +278,8 @@ header {
         opacity: 1; }
 
 @media all and (max-width: 768px) {
+  .destination .markedtext {
+    background-color: rgba(1, 178, 188, 0.2); }
   .destination .instagram-post {
     display: block !important;
     margin: auto !important;
