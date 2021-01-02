@@ -38,12 +38,11 @@
     color: white;
     font-size: 25px;
     margin-top: 20px;
-    padding: 10px;
-    text-align: center;
-    width: 150px; }
+    padding: 5px 30px;
+    text-align: center; }
   .homepage__button:hover {
-    border: #ebec1c solid 5px;
     color: white;
+    border: #ebec1c solid 5px;
     text-decoration: none; }
 
 @media all and (max-width: 768px) {
@@ -85,12 +84,13 @@ header {
       .destinations__content .searchbar__input {
         background: transparent;
         border: #01b2bc solid 3px;
-        border-radius: 10px;
+        border-radius: 0;
         color: #01b2bc;
         font-size: 1.1rem;
         height: 40px;
         padding: 20px;
         text-align: left;
+        -webkit-appearance: none;
         width: 50%; }
       .destinations__content .searchbar__input:focus {
         outline: none; }

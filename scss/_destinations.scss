@@ -19,12 +19,13 @@
             &__input {
                 background: transparent;
                 border: $green solid 3px;
-                border-radius: 10px;
+                border-radius: 0;
                 color: $green;
                 font-size: 1.1rem;
                 height: 40px;
                 padding: 20px;
                 text-align: left;
+                -webkit-appearance: none;
                 width: 50%;
             }
 
