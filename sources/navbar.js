@@ -19,6 +19,11 @@ document.write('\
                 </a>\
             </li>\
             <li class="nav-item">\
+                <a class="nav-link" href="https://www.putujfotkajpisi.rs/korisni_saveti/index.html">\
+                    Korisni Saveti\
+                </a>\
+            </li>\
+            <li class="nav-item">\
                 <a class="nav-link" href="https://www.putujfotkajpisi.rs/nasa_prica/index.html">\
                     Naša Priča\
                 </a>\
