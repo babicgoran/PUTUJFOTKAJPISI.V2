@@ -61,6 +61,9 @@ header {
       color: white !important;
       text-align: center;
       font-size: 1rem; }
+    header nav .active-page {
+      color: white !important;
+      opacity: 0.5; }
   header .navbar-light .navbar-toggler {
     border: #f9fdfd solid 1.5px;
     border-radius: 5px;

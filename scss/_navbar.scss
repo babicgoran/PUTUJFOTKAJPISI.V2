@@ -9,6 +9,10 @@ header {
             text-align: center; 
             font-size: 1rem;
         }
+        .active-page {
+            color: $white !important;
+            opacity: 0.5;
+        }
     }
     .navbar-light {
         .navbar-toggler {
