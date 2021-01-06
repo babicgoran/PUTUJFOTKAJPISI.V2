@@ -40,7 +40,7 @@ var destinations = [
   { city: 'DUBAI', country: 'UAE', url: 'https://www.putujfotkajpisi.rs/destinacije/uae/dubai/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/dubai.jpg' },
   { city: 'KARLOVE VARI', country: 'ČEŠKA REPUBLIKA', url: 'https://www.putujfotkajpisi.rs/destinacije/ceska/karlove_vari/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/karlove-vari.jpg' },
   { city: 'MALTA', country: 'MALTA', url: 'https://www.putujfotkajpisi.rs/destinacije/malta/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/malta.jpeg' },
-
+  { city: 'KEFALONIJA', country: 'GRČKA', url: 'https://www.putujfotkajpisi.rs/destinacije/grcka/kefalonija/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/kefalonija.jpeg' },
 ]
 
 function search(el) {
