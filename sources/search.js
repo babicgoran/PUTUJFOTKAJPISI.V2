@@ -42,6 +42,7 @@ var destinations = [
   { city: 'MALTA', country: 'MALTA', url: 'https://www.putujfotkajpisi.rs/destinacije/malta/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/malta.jpeg' },
   { city: 'KEFALONIJA', country: 'GRČKA', url: 'https://www.putujfotkajpisi.rs/destinacije/grcka/kefalonija/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/kefalonija.jpeg' },
   { city: 'TOLEDO', country: 'ŠPANIJA', url: 'https://www.putujfotkajpisi.rs/destinacije/spanija/toledo/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/toledo.jpeg' },
+  { city: 'SINTRA', country: 'PORTUGAL', url: 'https://www.putujfotkajpisi.rs/destinacije/portugal/sintra/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/sintra.jpeg' },
 
 ]
 
