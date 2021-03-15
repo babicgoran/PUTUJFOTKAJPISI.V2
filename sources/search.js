@@ -25,6 +25,7 @@ var destinations = [
   { city: 'BERLIN', country: 'NEMAČKA', url: 'https://www.putujfotkajpisi.rs/destinacije/nemacka/berlin/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/berlin.jpg' },
   { city: 'PORTO', country: 'PORTUGAL', url: 'https://www.putujfotkajpisi.rs/destinacije/portugal/porto/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/porto.jpg' },
   { city: 'DEL. PEŠČARA', country: 'SRBIJA', url: 'https://www.putujfotkajpisi.rs/destinacije/srbija/deliblatska_pescara/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/deliblatska-pescara.jpg' },
+  { city: 'GOLUBAC', country: 'SRBIJA', url: 'https://www.putujfotkajpisi.rs/destinacije/srbija/golubac/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/golubac.jpg' },
   { city: 'STARA PLANINA', country: 'SRBIJA', url: 'https://www.putujfotkajpisi.rs/destinacije/srbija/stara_planina/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/stara-planina.jpg' },
   { city: 'BANGKOK', country: 'TAJLAND', url: 'https://www.putujfotkajpisi.rs/destinacije/tajland/bangkok/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/bangkok.jpg' },
   { city: 'KOH LANTA', country: 'TAJLAND', url: 'https://www.putujfotkajpisi.rs/destinacije/tajland/koh_lanta/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/koh-lanta.jpg' },
