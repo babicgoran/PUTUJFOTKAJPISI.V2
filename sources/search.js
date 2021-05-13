@@ -16,6 +16,7 @@ var destinations = [
   { city: 'KRUMLOV', country: 'ČEŠKA REPUBLIKA', url: 'https://www.putujfotkajpisi.rs/destinacije/ceska/krumlov/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/krumlov.jpg' },
   { city: 'PRAG', country: 'ČEŠKA REPUBLIKA', url: 'https://www.putujfotkajpisi.rs/destinacije/ceska/prag/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/prag.jpg' },
   { city: 'PARIZ', country: 'FRANCUSKA', url: 'https://www.putujfotkajpisi.rs/destinacije/francuska/pariz/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/pariz.jpg' },
+  { city: 'SKIJATOS', country: 'GRČKA', url: 'https://www.putujfotkajpisi.rs/destinacije/grcka/skijatos/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/skijatos.jpg' },
   { city: 'IOS', country: 'GRČKA', url: 'https://www.putujfotkajpisi.rs/destinacije/grcka/ios/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/ios.jpeg' },
   { city: 'KOUFONISI', country: 'GRČKA', url: 'https://www.putujfotkajpisi.rs/destinacije/grcka/koufonisi/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/koufonisi.jpg' },
   { city: 'MIKONOS', country: 'GRČKA', url: 'https://www.putujfotkajpisi.rs/destinacije/grcka/mikonos/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/mikonos.jpg' },
