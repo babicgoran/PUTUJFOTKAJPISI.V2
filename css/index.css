@@ -11,6 +11,9 @@
   padding: 0px !important;
   width: 100%; }
 
+.banner > img {
+  width: 50%; }
+
 .homepage {
   align-items: center;
   background-image: url(/images/homepage-desktop.jpg);
