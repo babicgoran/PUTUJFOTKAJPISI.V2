@@ -5,8 +5,9 @@ var LIST = document.querySelector('.js-search-list')
 
 var destinations = [
   { city: 'IZLETI SRBIJA', country: 'SRBIJA', url: 'https://www.putujfotkajpisi.rs/destinacije/srbija/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/golubac.jpg' },
-  { city: 'SANTORINI', country: 'GRČKA', url: 'https://www.putujfotkajpisi.rs/destinacije/grcka/santorini/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/santorini.jpg' },
+  { city: 'TUNIS', country: 'TUNIS', url: 'https://www.putujfotkajpisi.rs/destinacije/tunis/tunis-putopis/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/tunis.jpg' },
   { city: 'HURGADA', country: 'EGIPAT', url: 'https://www.putujfotkajpisi.rs/destinacije/egipat/hurgada/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/hurgada.jpg' },
+  { city: 'SANTORINI', country: 'GRČKA', url: 'https://www.putujfotkajpisi.rs/destinacije/grcka/santorini/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/santorini.jpg' },
   { city: 'TAJLAND', country: 'TAJLAND', url: 'https://www.putujfotkajpisi.rs/destinacije/tajland/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/tajland.jpg' },
   { city: 'KAPADOKIJA', country: 'TURSKA', url: 'https://www.putujfotkajpisi.rs/destinacije/turska/kapadokija/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/kapadokija.jpg' },
   { city: 'LISABON', country: 'PORTUGAL', url: 'https://www.putujfotkajpisi.rs/destinacije/portugal/lisabon/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/lisabon.jpg' },
@@ -32,7 +33,6 @@ var destinations = [
   { city: 'KOH SAMUI', country: 'TAJLAND', url: 'https://www.putujfotkajpisi.rs/destinacije/tajland/koh_samui/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/koh-samui.jpg' },
   { city: 'KRABI', country: 'TAJLAND', url: 'https://www.putujfotkajpisi.rs/destinacije/tajland/krabi/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/krabi.jpg' },
   { city: 'PHUKET ', country: 'TAJLAND', url: 'https://www.putujfotkajpisi.rs/destinacije/tajland/phuket/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/phuket.jpg' },
-  { city: 'TUNIS GRAD', country: 'TUNIS', url: 'https://www.putujfotkajpisi.rs/destinacije/tunis/grad_tunis/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/tunis.jpg' },
   { city: 'ISTANBUL', country: 'TURSKA', url: 'https://www.putujfotkajpisi.rs/destinacije/turska/istanbul/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/istanbul.jpg' },
   { city: 'OLUDENIZ', country: 'TURSKA', url: 'https://www.putujfotkajpisi.rs/destinacije/turska/oludeniz/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/oludeniz.jpg' },
   { city: 'FUERTEVENTURA', country: 'ŠPANIJA', url: 'https://www.putujfotkajpisi.rs/destinacije/spanija/fuerteventura/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/fuerteventura.jpg' },
