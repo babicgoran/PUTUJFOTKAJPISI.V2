@@ -4,7 +4,7 @@ var INPUT = document.querySelector('.searchbar__input')
 var LIST = document.querySelector('.js-search-list')
 
 var destinations = [
-  { city: 'IZLETI SRBIJA', country: 'SRBIJA', url: 'https://www.putujfotkajpisi.rs/destinacije/srbija/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/golubac.jpg' },
+  { city: 'IZLETI SRBIJA', country: 'SRBIJA', url: 'https://www.putujfotkajpisi.rs/destinacije/izleti-u-srbiji/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/golubac.jpg' },
   { city: 'TUNIS', country: 'TUNIS', url: 'https://www.putujfotkajpisi.rs/destinacije/tunis/tunis-putopis/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/tunis.jpg' },
   { city: 'HURGADA', country: 'EGIPAT', url: 'https://www.putujfotkajpisi.rs/destinacije/egipat/hurgada/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/hurgada.jpg' },
   { city: 'SANTORINI', country: 'GRČKA', url: 'https://www.putujfotkajpisi.rs/destinacije/grcka/santorini/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/santorini.jpg' },
