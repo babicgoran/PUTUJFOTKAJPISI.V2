@@ -34,6 +34,7 @@ var destinations = [
   { city: 'PORTO', country: 'PORTUGAL', url: 'https://www.putujfotkajpisi.rs/destinacije/portugal/porto/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/porto.jpg' },
   { city: 'SINTRA', country: 'PORTUGAL', url: 'https://www.putujfotkajpisi.rs/destinacije/portugal/sintra/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/sintra.jpeg' },
   { city: 'MOSKVA', country: 'RUSIJA', url: 'https://www.putujfotkajpisi.rs/destinacije/rusija/moskva/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/moskva.jpg' },
+  { city: 'VELENJE', country: 'SLOVENIJA', url: 'https://www.putujfotkajpisi.rs/destinacije/slovenija/velenje/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/velenje.JPG' },
   { city: 'FUERTEVENTURA', country: 'ŠPANIJA', url: 'https://www.putujfotkajpisi.rs/destinacije/spanija/fuerteventura/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/fuerteventura.jpg' },
   { city: 'MADRID', country: 'ŠPANIJA', url: 'https://www.putujfotkajpisi.rs/destinacije/spanija/madrid/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/madrid.jpg' },
   { city: 'SEGOVIJA', country: 'ŠPANIJA', url: 'https://www.putujfotkajpisi.rs/destinacije/spanija/segovija/index.html', photo: 'https://www.putujfotkajpisi.rs/images/destinations/segovija.jpg' },
